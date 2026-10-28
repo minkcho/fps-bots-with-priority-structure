@@ -1,0 +1,29 @@
+\begin{tabular}{llcccccccc}
+\toprule
+ & & \multicolumn{4}{c}{Random map} & \multicolumn{4}{c}{Urban map} \\
+\cmidrule(lr){3-6}\cmidrule(lr){7-10}
+ & & \multicolumn{2}{c}{Earlier} & \multicolumn{2}{c}{Present} & \multicolumn{2}{c}{Earlier} & \multicolumn{2}{c}{Present} \\
+Hyp. & Test & Effect & $p_{\mathrm{Holm}}$ & Effect & $p_{\mathrm{Holm}}$ & Effect & $p_{\mathrm{Holm}}$ & Effect & $p_{\mathrm{Holm}}$ \\
+\midrule
+H1 & Kruskal--Wallis, Mission objective commitment & $\varepsilon^2=0.70$ & $<0.001$ & $\varepsilon^2=0.70$ & $<0.001$ & $\varepsilon^2=0.74$ & $<0.001$ & $\varepsilon^2=0.73$ & $<0.001$ \\
+H1 & Kruskal--Wallis, Mission ally distance & $\varepsilon^2=0.30$ & $<0.001$ & $\varepsilon^2=0.40$ & $<0.001$ & $\varepsilon^2=0.40$ & $<0.001$ & $\varepsilon^2=0.44$ & $<0.001$ \\
+H1 & Kruskal--Wallis, Deathmatch engagement redirection & $\varepsilon^2=0.75$ & $<0.001$ & $\varepsilon^2=0.86$ & $<0.001$ & $\varepsilon^2=0.77$ & $<0.001$ & $\varepsilon^2=0.87$ & $<0.001$ \\
+H1 & Kruskal--Wallis, Deathmatch resource seeking & $\varepsilon^2=0.51$ & $<0.001$ & $\varepsilon^2=0.53$ & $<0.001$ & $\varepsilon^2=0.59$ & $<0.001$ & $\varepsilon^2=0.56$ & $<0.001$ \\
+H1 & Kruskal--Wallis, Control score & $\varepsilon^2=0.55$ & $<0.001$ & $\varepsilon^2=0.59$ & $<0.001$ & $\varepsilon^2=0.67$ & $<0.001$ & $\varepsilon^2=0.65$ & $<0.001$ \\
+H1 & Style classification (5-fold CV), Mission & acc.\ 0.77 & 0.007 & acc.\ 0.75 & 0.005 & acc.\ 0.76 & 0.006 & acc.\ 0.79 & 0.006 \\
+H1 & Style classification (5-fold CV), Deathmatch & acc.\ 0.90 & 0.007 & acc.\ 0.98 & 0.005 & acc.\ 0.89 & 0.006 & acc.\ 0.98 & 0.006 \\
+H1 & Style classification (5-fold CV), Control & acc.\ 0.73 & 0.007 & acc.\ 0.74 & 0.005 & acc.\ 0.76 & 0.006 & acc.\ 0.79 & 0.006 \\
+H1 & Mode ablation, Deathmatch SA resource seeking (full $-$ weights-only) & $r=+0.94$ & $<0.001$ & $r=+0.95$ & $<0.001$ & $r=+1.00$ & $<0.001$ & $r=+0.97$ & $<0.001$ \\
+H1 & Mode ablation, Deathmatch Agg engagement redirection (full $-$ weights-only) & $r=+0.86$ & $<0.001$ & $r=+1.00$ & $<0.001$ & $r=+0.79$ & $<0.001$ & $r=+1.00$ & $<0.001$ \\
+H2 & Mission goal switches, $w_{\mathrm{commit}}$ 0.45 $-$ 0 & $r=-0.98$ & $<0.001$ & $r=-1.00$ & $<0.001$ & $r=-1.00$ & $<0.001$ & $r=-1.00$ & $<0.001$ \\
+H2 & Control goal switches, $w_{\mathrm{commit}}$ 0.45 $-$ 0 & $r=-1.00$ & $<0.001$ & $r=-1.00$ & $<0.001$ & $r=-1.00$ & $<0.001$ & $r=-1.00$ & $<0.001$ \\
+H3 & Deathmatch MC walked exposure, $\lambda_E$ conf.\ $-$ 0 & $r=-0.32$ & 0.020 & $r=-0.39$ & 0.004 & $r=-0.29$ & 0.043 & $r=-0.36$ & 0.006 \\
+H3 & Deathmatch PO walked exposure, $\lambda_E$ conf.\ $-$ 0 & $r=-0.89$ & $<0.001$ & $r=-0.96$ & $<0.001$ & $r=-0.93$ & $<0.001$ & $r=-0.97$ & $<0.001$ \\
+H3 & Deathmatch Agg walked exposure, $\lambda_E$ conf.\ $-$ 0 & $r=-0.55$ & $<0.001$ & $r=-0.77$ & $<0.001$ & $r=-0.46$ & $<0.001$ & $r=-0.79$ & $<0.001$ \\
+H3 & Deathmatch SA walked exposure, $\lambda_E$ conf.\ $-$ 0 & $r=-0.24$ & \textbf{0.039} & $r=-0.15$ & \textbf{0.179} & $r=-0.22$ & \textbf{0.061} & $r=-0.31$ & \textbf{0.010} \\
+H3 & Sign test, walked exposure lower with the term (12 conditions) & 11/12 & 0.013 & 12/12 & 0.002 & 12/12 & 0.002 & 12/12 & 0.002 \\
+H3b & Deathmatch MC ally distance, $\lambda_T$ 10 $-$ 0 & $r=-0.39$ & 0.005 & $r=-0.53$ & $<0.001$ & $r=-0.47$ & $<0.001$ & $r=-0.32$ & 0.010 \\
+H4 & Mission ally distance along $\alpha$ (MC $\to$ PO) & $\rho=+0.11$ & 0.024 & $\rho=+0.15$ & 0.005 & $\rho=+0.11$ & 0.043 & $\rho=+0.20$ & $<0.001$ \\
+H4 & Deathmatch engagement redirection along $\alpha$ (Agg $\to$ SA) & $\rho=-0.53$ & $<0.001$ & $\rho=-0.70$ & $<0.001$ & $\rho=-0.39$ & $<0.001$ & $\rho=-0.67$ & $<0.001$ \\
+\bottomrule
+\end{tabular}

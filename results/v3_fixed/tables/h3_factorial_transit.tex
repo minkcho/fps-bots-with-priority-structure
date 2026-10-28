@@ -1,0 +1,39 @@
+\begin{tabular}{llcccccc}
+\toprule
+Map & Condition ($\lambda_E=10$, omniscient, event replanning) & LOS steps & Walked hits & Detours & Length ratio & Arrival & First-life deaths \\
+\midrule
+corridor & distance-only A$^*$ ($\lambda_E=0$) & 0.124 & 2.36 & 0.000 & 1.000 & 0.89 & 0.11 \\
+ & distance/additive & 0.000 & 0.00 & 0.026 & 1.600 & 1.00 & 0.00 \\
+ & distance/exp & 0.000 & 0.00 & 0.026 & 1.600 & 1.00 & 0.00 \\
+ & distance/square & 0.124 & 2.36 & 0.000 & 1.000 & 0.89 & 0.11 \\
+ & hits/additive & 0.000 & 0.00 & 0.026 & 1.600 & 1.00 & 0.00 \\
+ & hits/exp & 0.000 & 0.00 & 0.026 & 1.600 & 1.00 & 0.00 \\
+ & hits/square & 0.124 & 2.36 & 0.000 & 1.000 & 0.89 & 0.11 \\
+ & anticipatory/additive & 0.124 & 2.36 & 0.000 & 1.000 & 0.89 & 0.11 \\
+ & anticipatory/exp & 0.000 & 0.00 & 0.026 & 1.600 & 1.00 & 0.00 \\
+ & anticipatory/square & 0.124 & 2.36 & 0.000 & 1.000 & 0.89 & 0.11 \\
+ & hits/exp, visible+remembered & 0.124 & 2.36 & 0.000 & 1.000 & 0.89 & 0.11 \\
+random & distance-only A$^*$ ($\lambda_E=0$) & 0.496 & 8.62 & 0.000 & 1.000 & 0.28 & 0.72 \\
+ & distance/additive & 0.483 & 7.60 & 0.169 & 1.000 & 0.85 & 0.15 \\
+ & distance/exp & 0.287 & 4.20 & 0.112 & 1.500 & 1.00 & 0.00 \\
+ & distance/square & 0.483 & 7.60 & 0.169 & 1.000 & 0.85 & 0.15 \\
+ & hits/additive & 0.287 & 4.20 & 0.112 & 1.500 & 1.00 & 0.00 \\
+ & hits/exp & 0.287 & 4.20 & 0.112 & 1.500 & 1.00 & 0.00 \\
+ & hits/square & 0.483 & 7.60 & 0.169 & 1.000 & 0.85 & 0.15 \\
+ & anticipatory/additive & 0.496 & 8.62 & 0.000 & 1.000 & 0.28 & 0.72 \\
+ & anticipatory/exp & 0.496 & 8.62 & 0.000 & 1.000 & 0.28 & 0.72 \\
+ & anticipatory/square & 0.496 & 8.62 & 0.000 & 1.000 & 0.28 & 0.72 \\
+ & hits/exp, visible+remembered & 0.496 & 8.62 & 0.000 & 1.000 & 0.28 & 0.72 \\
+urban & distance-only A$^*$ ($\lambda_E=0$) & 0.611 & 8.31 & 0.000 & 1.000 & 0.28 & 0.72 \\
+ & distance/additive & 0.157 & 3.40 & 0.072 & 1.000 & 0.65 & 0.35 \\
+ & distance/exp & 0.033 & 0.68 & 0.021 & 1.833 & 1.00 & 0.00 \\
+ & distance/square & 0.259 & 4.31 & 0.176 & 1.000 & 0.55 & 0.45 \\
+ & hits/additive & 0.033 & 0.68 & 0.019 & 1.583 & 1.00 & 0.00 \\
+ & hits/exp & 0.033 & 0.64 & 0.020 & 1.667 & 1.00 & 0.00 \\
+ & hits/square & 0.157 & 3.40 & 0.072 & 1.000 & 0.65 & 0.35 \\
+ & anticipatory/additive & 0.259 & 4.31 & 0.176 & 1.000 & 0.55 & 0.45 \\
+ & anticipatory/exp & 0.259 & 4.31 & 0.176 & 1.000 & 0.55 & 0.45 \\
+ & anticipatory/square & 0.259 & 4.31 & 0.176 & 1.000 & 0.55 & 0.45 \\
+ & hits/exp, visible+remembered & 0.033 & 0.64 & 0.020 & 1.667 & 1.00 & 0.00 \\
+\bottomrule
+\end{tabular}

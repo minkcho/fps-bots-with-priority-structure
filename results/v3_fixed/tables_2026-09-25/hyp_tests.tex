@@ -1,0 +1,37 @@
+\begin{tabular}{llcccc}
+\toprule
+ & & \multicolumn{2}{c}{Random map} & \multicolumn{2}{c}{Urban map} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}
+Hyp. & Test & Effect & $p_{\mathrm{Holm}}$ & Effect & $p_{\mathrm{Holm}}$ \\
+\midrule
+H1 & Kruskal--Wallis, Mission objective commitment & $\varepsilon^2=0.70$ & $<0.001$ & $\varepsilon^2=0.73$ & $<0.001$ \\
+H1 & Kruskal--Wallis, Mission ally distance & $\varepsilon^2=0.40$ & $<0.001$ & $\varepsilon^2=0.44$ & $<0.001$ \\
+H1 & Kruskal--Wallis, Deathmatch engagement redirection & $\varepsilon^2=0.86$ & $<0.001$ & $\varepsilon^2=0.87$ & $<0.001$ \\
+H1 & Kruskal--Wallis, Deathmatch resource seeking & $\varepsilon^2=0.53$ & $<0.001$ & $\varepsilon^2=0.56$ & $<0.001$ \\
+H1 & Kruskal--Wallis, Control score & $\varepsilon^2=0.59$ & $<0.001$ & $\varepsilon^2=0.65$ & $<0.001$ \\
+H1 & Style classification (5-fold CV), Mission & acc.\ 0.75 & 0.005 & acc.\ 0.79 & 0.006 \\
+H1 & Style classification (5-fold CV), Deathmatch & acc.\ 0.98 & 0.005 & acc.\ 0.98 & 0.006 \\
+H1 & Style classification (5-fold CV), Control & acc.\ 0.74 & 0.005 & acc.\ 0.79 & 0.006 \\
+H1 & Mode ablation, Deathmatch SA resource seeking (full $-$ weights-only) & $+0.51$ [$+0.39$, $+0.61$], $r=+0.95$ & $<0.001$ & $+0.50$ [$+0.43$, $+0.60$], $r=+0.97$ & $<0.001$ \\
+H1 & Mode ablation, Deathmatch Agg engagement redirection (full $-$ weights-only) & $+1.43$ [$+1.28$, $+1.54$], $r=+1.00$ & $<0.001$ & $+1.30$ [$+1.19$, $+1.41$], $r=+1.00$ & $<0.001$ \\
+H2 & Mission goal switches, $w_{\mathrm{commit}}$ 0.45 $-$ 0 & $-20.39$ [$-24.15$, $-13.52$], $r=-1.00$ & $<0.001$ & $-14.82$ [$-18.32$, $-9.53$], $r=-1.00$ & $<0.001$ \\
+H2 & Control goal switches, $w_{\mathrm{commit}}$ 0.45 $-$ 0 & $-21.39$ [$-24.78$, $-20.06$], $r=-1.00$ & $<0.001$ & $-22.99$ [$-27.63$, $-20.35$], $r=-1.00$ & $<0.001$ \\
+H3$^{\ddagger}$ & Deathmatch MC walked exposure, $\lambda_E$ conf.\ $-$ 0 & $-0.0097$ [$-0.0136$, $-0.0017$], $r=-0.39$ & 0.004 & $-0.0081$ [$-0.0124$, $-0.0025$], $r=-0.36$ & 0.006 \\
+H3$^{\ddagger}$ & Deathmatch PO walked exposure, $\lambda_E$ conf.\ $-$ 0 & $-0.0214$ [$-0.0267$, $-0.0154$], $r=-0.96$ & $<0.001$ & $-0.0267$ [$-0.0318$, $-0.0219$], $r=-0.97$ & $<0.001$ \\
+H3$^{\ddagger}$ & Deathmatch Agg walked exposure, $\lambda_E$ conf.\ $-$ 0 & $-0.0150$ [$-0.0185$, $-0.0125$], $r=-0.77$ & $<0.001$ & $-0.0173$ [$-0.0205$, $-0.0125$], $r=-0.79$ & $<0.001$ \\
+H3$^{\ddagger}$ & Deathmatch SA walked exposure, $\lambda_E$ conf.\ $-$ 0 & $-0.0026$ [$-0.0072$, $+0.0015$], $r=-0.15$ & 0.179 & $-0.0054$ [$-0.0112$, $+0.0013$], $r=-0.31$ & 0.010 \\
+H3$^{\ddagger}$ & Sign test, walked exposure lower with the term (12 conditions) & 12/12 lower & 0.002 & 12/12 lower & 0.002 \\
+H3b & Deathmatch MC ally distance, $\lambda_T$ 10 $-$ 0 & $-0.31$ [$-0.49$, $-0.11$], $r=-0.53$ & $<0.001$ & $-0.20$ [$-0.35$, $-0.02$], $r=-0.32$ & 0.010 \\
+H4 & Mission ally distance along $\alpha$ (MC $\to$ PO) & $\rho=+0.15$ & 0.005 & $\rho=+0.20$ & $<0.001$ \\
+H4 & Deathmatch engagement redirection along $\alpha$ (Agg $\to$ SA) & $\rho=-0.70$ & $<0.001$ & $\rho=-0.67$ & $<0.001$ \\
+\midrule
+\multicolumn{6}{l}{\emph{Earlier formulations (not in the Holm family; unadjusted $p$)}} \\
+H2 & Mission objective commitment, $w_{\mathrm{commit}}$ 0.45 $-$ 0 & $+0.10$ [$+0.07$, $+0.14$], $r=+0.94$ & $<0.001$ & $+0.08$ [$+0.05$, $+0.11$], $r=+0.83$ & $<0.001$ \\
+H2 & Control score, $w_{\mathrm{commit}}$ 0.45 $-$ 0 & $+0.00$ [$+0.00$, $+0.00$], $r=+0.90$ & $<0.001$ & $+0.00$ [$+0.00$, $+0.00$], $r=+0.96$ & $<0.001$ \\
+H3 & Deathmatch SA walked exposure, $\lambda\times1-\lambda\times0$ & $-0.004$ [$-0.009$, $+0.002$], $r=-0.13$ & 0.270 & $-0.002$ [$-0.007$, $+0.002$], $r=-0.21$ & 0.066 \\
+H3 & Deathmatch SA LOS fraction, $\lambda\times1-\lambda\times0$ & $-0.006$ [$-0.019$, $+0.011$], $r=-0.08$ & 0.507 & $-0.003$ [$-0.015$, $+0.009$], $r=-0.10$ & 0.385 \\
+H3 & Deathmatch SA Deaths, $\lambda\times1-\lambda\times0$ & $+0.000$ [$-1.000$, $+0.000$], $r=-0.09$ & 0.471 & $-1.000$ [$-1.000$, $+0.000$], $r=-0.22$ & 0.074 \\
+H3 & Deathmatch SA engagement redirection, $\lambda\times1-\lambda\times0$ & $+0.000$ [$+0.000$, $+0.000$], $r=+0.00$ & 1.000 & $+0.000$ [$+0.000$, $+0.000$], $r=+0.00$ & 1.000 \\
+H3 & Mission MC ally distance, $\lambda\times1-\lambda\times0$ & $+0.000$ [$+0.000$, $+0.000$], $r=+0.05$ & 0.737 & $+0.000$ [$-0.001$, $+0.002$], $r=-0.10$ & 0.416 \\
+\bottomrule
+\end{tabular}

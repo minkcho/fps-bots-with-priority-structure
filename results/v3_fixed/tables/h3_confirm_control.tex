@@ -1,0 +1,65 @@
+\begin{tabular}{llllcccc}
+\toprule
+Scenario / map / style & Field & Knowledge & $\lambda_E$ & Walked hits per step & LOS fraction & Deaths & Outcome \\
+\midrule
+control / random / Objective & distance-only A$^*$ & -- & 0 & 0.0426 & 0.094 & 1.60 & win 0.99 \\
+ & earlier additive model & -- & 0.55 & 0.0423 & 0.093 & 1.58 & win 1.00 \\
+ & distance / exp & all & 5 & 0.0431 & 0.094 & 1.84 & win 0.96 \\
+ & distance / exp & all & 10 & 0.0408 & 0.090 & 1.67 & win 1.00 \\
+ & distance / exp & all & 20 & 0.0424 & 0.094 & 1.79 & win 0.97 \\
+ & distance / exp & memory & 5 & 0.0417 & 0.092 & 1.53 & win 1.00 \\
+ & distance / exp & memory & 10 & 0.0419 & 0.093 & 1.60 & win 1.00 \\
+ & distance / exp & memory & 20 & 0.0416 & 0.092 & 1.68 & win 1.00 \\
+ & hits / exp & all & 5 & 0.0419 & 0.093 & 1.68 & win 0.98 \\
+ & hits / exp & all & 10 & 0.0419 & 0.093 & 1.67 & win 0.98 \\
+ & hits / exp & all & 20 & 0.0426 & 0.093 & 1.84 & win 0.95 \\
+ & hits / exp & memory & 5 & 0.0417 & 0.092 & 1.53 & win 1.00 \\
+ & hits / exp & memory & 10 & 0.0413 & 0.092 & 1.61 & win 1.00 \\
+ & hits / exp & memory & 20 & 0.0411 & 0.091 & 1.58 & win 1.00 \\
+\midrule
+control / random / SA & distance-only A$^*$ & -- & 0 & 0.0265 & 0.076 & 2.59 & win 0.08 \\
+ & earlier additive model & -- & 0.55 & 0.0280 & 0.079 & 2.77 & win 0.11 \\
+ & distance / exp & all & 5 & 0.0273 & 0.081 & 2.66 & win 0.09 \\
+ & distance / exp & all & 10 & 0.0262 & 0.074 & 2.40 & win 0.08 \\
+ & distance / exp & all & 20 & 0.0232 & 0.066 & 2.06 & win 0.06 \\
+ & distance / exp & memory & 5 & 0.0286 & 0.084 & 2.74 & win 0.08 \\
+ & distance / exp & memory & 10 & 0.0262 & 0.077 & 2.57 & win 0.10 \\
+ & distance / exp & memory & 20 & 0.0262 & 0.075 & 2.51 & win 0.06 \\
+ & hits / exp & all & 5 & 0.0258 & 0.076 & 2.59 & win 0.08 \\
+ & hits / exp & all & 10 & 0.0250 & 0.073 & 2.66 & win 0.04 \\
+ & hits / exp & all & 20 & 0.0241 & 0.069 & 2.21 & win 0.07 \\
+ & hits / exp & memory & 5 & 0.0282 & 0.079 & 2.66 & win 0.09 \\
+ & hits / exp & memory & 10 & 0.0305 & 0.086 & 2.94 & win 0.07 \\
+ & hits / exp & memory & 20 & 0.0313 & 0.087 & 3.47 & win 0.06 \\
+\midrule
+control / urban / Objective & distance-only A$^*$ & -- & 0 & 0.0390 & 0.083 & 1.97 & win 0.95 \\
+ & earlier additive model & -- & 0.55 & 0.0358 & 0.076 & 1.65 & win 0.96 \\
+ & distance / exp & all & 5 & 0.0382 & 0.083 & 1.78 & win 0.97 \\
+ & distance / exp & all & 10 & 0.0374 & 0.082 & 1.73 & win 0.98 \\
+ & distance / exp & all & 20 & 0.0368 & 0.079 & 1.77 & win 0.93 \\
+ & distance / exp & memory & 5 & 0.0351 & 0.077 & 1.63 & win 0.98 \\
+ & distance / exp & memory & 10 & 0.0342 & 0.076 & 1.58 & win 0.98 \\
+ & distance / exp & memory & 20 & 0.0338 & 0.075 & 1.66 & win 0.97 \\
+ & hits / exp & all & 5 & 0.0356 & 0.078 & 1.65 & win 0.98 \\
+ & hits / exp & all & 10 & 0.0339 & 0.076 & 1.51 & win 0.98 \\
+ & hits / exp & all & 20 & 0.0317 & 0.072 & 1.53 & win 0.95 \\
+ & hits / exp & memory & 5 & 0.0347 & 0.076 & 1.52 & win 0.99 \\
+ & hits / exp & memory & 10 & 0.0344 & 0.076 & 1.56 & win 0.99 \\
+ & hits / exp & memory & 20 & 0.0337 & 0.075 & 1.57 & win 0.99 \\
+\midrule
+control / urban / SA & distance-only A$^*$ & -- & 0 & 0.0300 & 0.085 & 3.20 & win 0.03 \\
+ & earlier additive model & -- & 0.55 & 0.0293 & 0.084 & 2.76 & win 0.05 \\
+ & distance / exp & all & 5 & 0.0230 & 0.069 & 2.22 & win 0.05 \\
+ & distance / exp & all & 10 & 0.0241 & 0.070 & 2.50 & win 0.06 \\
+ & distance / exp & all & 20 & 0.0207 & 0.060 & 1.76 & win 0.09 \\
+ & distance / exp & memory & 5 & 0.0307 & 0.090 & 3.08 & win 0.03 \\
+ & distance / exp & memory & 10 & 0.0293 & 0.086 & 3.26 & win 0.04 \\
+ & distance / exp & memory & 20 & 0.0267 & 0.077 & 2.74 & win 0.09 \\
+ & hits / exp & all & 5 & 0.0261 & 0.076 & 2.70 & win 0.05 \\
+ & hits / exp & all & 10 & 0.0245 & 0.072 & 2.80 & win 0.07 \\
+ & hits / exp & all & 20 & 0.0244 & 0.072 & 2.59 & win 0.04 \\
+ & hits / exp & memory & 5 & 0.0291 & 0.086 & 2.87 & win 0.04 \\
+ & hits / exp & memory & 10 & 0.0285 & 0.082 & 2.97 & win 0.04 \\
+ & hits / exp & memory & 20 & 0.0282 & 0.080 & 3.16 & win 0.02 \\
+\bottomrule
+\end{tabular}

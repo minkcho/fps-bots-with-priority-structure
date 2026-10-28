@@ -1,0 +1,1758 @@
+{
+  "decomposition": {
+    "Deathmatch|Survival-Aware": {
+      "means": {
+        "distance_only": {
+          "EngRedirect": {
+            "n": 30,
+            "mean": 0.6723216666666668,
+            "ci": 0.1701790898041506
+          },
+          "ResSeek": {
+            "n": 30,
+            "mean": 0.7904925999999999,
+            "ci": 0.1467292055038119
+          },
+          "AllyDist": {
+            "n": 30,
+            "mean": 4.227454633333333,
+            "ci": 0.6927172113697788
+          },
+          "ObjCommit": {
+            "n": 30,
+            "mean": 0.0,
+            "ci": 0.0
+          },
+          "Kills": {
+            "n": 30,
+            "mean": 7.5,
+            "ci": 1.2662818186087181
+          },
+          "Deaths": {
+            "n": 30,
+            "mean": 6.2,
+            "ci": 1.067021821432271
+          }
+        },
+        "adjacency_cover_only": {
+          "EngRedirect": {
+            "n": 30,
+            "mean": 2.3501081666666668,
+            "ci": 2.8871250923811473
+          },
+          "ResSeek": {
+            "n": 30,
+            "mean": 0.7744810666666668,
+            "ci": 0.15716646961719122
+          },
+          "AllyDist": {
+            "n": 30,
+            "mean": 3.576579333333333,
+            "ci": 0.6479068208869561
+          },
+          "ObjCommit": {
+            "n": 30,
+            "mean": 0.0,
+            "ci": 0.0
+          },
+          "Kills": {
+            "n": 30,
+            "mean": 7.533333333333333,
+            "ci": 1.3719233445222885
+          },
+          "Deaths": {
+            "n": 30,
+            "mean": 6.233333333333333,
+            "ci": 0.9592141975397468
+          }
+        },
+        "threat_cover_only": {
+          "EngRedirect": {
+            "n": 30,
+            "mean": 0.9653427666666666,
+            "ci": 0.2619297715544773
+          },
+          "ResSeek": {
+            "n": 30,
+            "mean": 0.7977932666666665,
+            "ci": 0.1333607689968706
+          },
+          "AllyDist": {
+            "n": 30,
+            "mean": 4.996468999999999,
+            "ci": 0.8500072912905591
+          },
+          "ObjCommit": {
+            "n": 30,
+            "mean": 0.0,
+            "ci": 0.0
+          },
+          "Kills": {
+            "n": 30,
+            "mean": 8.6,
+            "ci": 1.1993977968304128
+          },
+          "Deaths": {
+            "n": 30,
+            "mean": 6.3,
+            "ci": 1.0384774941173451
+          }
+        },
+        "adjacency_full": {
+          "EngRedirect": {
+            "n": 30,
+            "mean": 0.3771753,
+            "ci": 0.1072823124865479
+          },
+          "ResSeek": {
+            "n": 30,
+            "mean": 0.4452455,
+            "ci": 0.12211676510257133
+          },
+          "AllyDist": {
+            "n": 30,
+            "mean": 4.830555633333334,
+            "ci": 0.9088097615280042
+          },
+          "ObjCommit": {
+            "n": 30,
+            "mean": 0.0,
+            "ci": 0.0
+          },
+          "Kills": {
+            "n": 30,
+            "mean": 4.133333333333334,
+            "ci": 0.998749596312333
+          },
+          "Deaths": {
+            "n": 30,
+            "mean": 3.3333333333333335,
+            "ci": 0.8282161775002689
+          }
+        },
+        "threat_full": {
+          "EngRedirect": {
+            "n": 30,
+            "mean": 0.5123890666666667,
+            "ci": 0.1642759689262886
+          },
+          "ResSeek": {
+            "n": 30,
+            "mean": 0.4571189333333333,
+            "ci": 0.10897696555278823
+          },
+          "AllyDist": {
+            "n": 30,
+            "mean": 4.4581450333333335,
+            "ci": 0.7901420509248409
+          },
+          "ObjCommit": {
+            "n": 30,
+            "mean": 0.0,
+            "ci": 0.0
+          },
+          "Kills": {
+            "n": 30,
+            "mean": 4.0,
+            "ci": 0.8987462535287374
+          },
+          "Deaths": {
+            "n": 30,
+            "mean": 4.0,
+            "ci": 0.9855034225462185
+          }
+        }
+      },
+      "tests": {
+        "adjacency_cover_only vs distance_only|EngRedirect": {
+          "n_pairs": 30,
+          "n_nonzero": 30,
+          "p": 0.011303061619400978,
+          "r": 0.5225806451612903,
+          "median_diff": 0.242242
+        },
+        "adjacency_cover_only vs distance_only|Deaths": {
+          "n_pairs": 30,
+          "n_nonzero": 28,
+          "p": 0.9361007352578964,
+          "r": -0.017241379310344827,
+          "median_diff": 1.0
+        },
+        "adjacency_cover_only vs distance_only|AllyDist": {
+          "n_pairs": 30,
+          "n_nonzero": 30,
+          "p": 0.10483990423381329,
+          "r": -0.3419354838709677,
+          "median_diff": -1.179198
+        },
+        "threat_cover_only vs distance_only|EngRedirect": {
+          "n_pairs": 30,
+          "n_nonzero": 30,
+          "p": 0.11417667381465435,
+          "r": 0.3333333333333333,
+          "median_diff": 0.247581
+        },
+        "threat_cover_only vs distance_only|Deaths": {
+          "n_pairs": 30,
+          "n_nonzero": 28,
+          "p": 0.908891264566551,
+          "r": 0.024630541871921183,
+          "median_diff": 0.0
+        },
+        "threat_cover_only vs distance_only|AllyDist": {
+          "n_pairs": 30,
+          "n_nonzero": 30,
+          "p": 0.05768792890012264,
+          "r": 0.3978494623655914,
+          "median_diff": 0.9010050000000002
+        },
+        "threat_cover_only vs adjacency_cover_only|EngRedirect": {
+          "n_pairs": 30,
+          "n_nonzero": 30,
+          "p": 0.7000329215079546,
+          "r": -0.08387096774193549,
+          "median_diff": 0.003601999999999994
+        },
+        "threat_cover_only vs adjacency_cover_only|Deaths": {
+          "n_pairs": 30,
+          "n_nonzero": 29,
+          "p": 0.7775855258190253,
+          "r": 0.059770114942528735,
+          "median_diff": 1.0
+        },
+        "threat_cover_only vs adjacency_cover_only|AllyDist": {
+          "n_pairs": 30,
+          "n_nonzero": 30,
+          "p": 0.013663241639733315,
+          "r": 0.5096774193548387,
+          "median_diff": 1.4566329999999998
+        },
+        "threat_full vs adjacency_full|EngRedirect": {
+          "n_pairs": 30,
+          "n_nonzero": 28,
+          "p": 0.3989470452070236,
+          "r": 0.18719211822660098,
+          "median_diff": 0.0
+        },
+        "threat_full vs adjacency_full|Deaths": {
+          "n_pairs": 30,
+          "n_nonzero": 28,
+          "p": 0.292217181837378,
+          "r": 0.22660098522167488,
+          "median_diff": 1.0
+        },
+        "threat_full vs adjacency_full|AllyDist": {
+          "n_pairs": 30,
+          "n_nonzero": 30,
+          "p": 0.761065473780036,
+          "r": -0.06666666666666667,
+          "median_diff": 0.3214319999999997
+        }
+      }
+    },
+    "Deathmatch|Aggressive": {
+      "means": {
+        "distance_only": {
+          "EngRedirect": {
+            "n": 30,
+            "mean": 1.2425534666666664,
+            "ci": 0.21509294512050264
+          },
+          "ResSeek": {
+            "n": 30,
+            "mean": 0.0,
+            "ci": 0.0
+          },
+          "AllyDist": {
+            "n": 30,
+            "mean": 4.242716433333333,
+            "ci": 0.885970533888781
+          },
+          "ObjCommit": {
+            "n": 30,
+            "mean": 0.0,
+            "ci": 0.0
+          },
+          "Kills": {
+            "n": 30,
+            "mean": 10.133333333333333,
+            "ci": 1.4830718083161236
+          },
+          "Deaths": {
+            "n": 30,
+            "mean": 10.2,
+            "ci": 1.5517244822841385
+          }
+        },
+        "adjacency_cover_only": {
+          "EngRedirect": {
+            "n": 30,
+            "mean": 1.2755297333333333,
+            "ci": 0.18381342038106283
+          },
+          "ResSeek": {
+            "n": 30,
+            "mean": 0.0,
+            "ci": 0.0
+          },
+          "AllyDist": {
+            "n": 30,
+            "mean": 3.996820233333333,
+            "ci": 0.8147260120177591
+          },
+          "ObjCommit": {
+            "n": 30,
+            "mean": 0.0,
+            "ci": 0.0
+          },
+          "Kills": {
+            "n": 30,
+            "mean": 10.133333333333333,
+            "ci": 1.2887999986295113
+          },
+          "Deaths": {
+            "n": 30,
+            "mean": 9.866666666666667,
+            "ci": 1.336418184793286
+          }
+        },
+        "threat_cover_only": {
+          "EngRedirect": {
+            "n": 30,
+            "mean": 1.4244140333333333,
+            "ci": 0.24157894565739405
+          },
+          "ResSeek": {
+            "n": 30,
+            "mean": 0.0,
+            "ci": 0.0
+          },
+          "AllyDist": {
+            "n": 30,
+            "mean": 4.305010566666666,
+            "ci": 0.7474830325765184
+          },
+          "ObjCommit": {
+            "n": 30,
+            "mean": 0.0,
+            "ci": 0.0
+          },
+          "Kills": {
+            "n": 30,
+            "mean": 10.1,
+            "ci": 1.4818285499709787
+          },
+          "Deaths": {
+            "n": 30,
+            "mean": 10.733333333333333,
+            "ci": 1.6926103718598142
+          }
+        },
+        "adjacency_full": {
+          "EngRedirect": {
+            "n": 30,
+            "mean": 1.0118231333333332,
+            "ci": 0.15401706283921776
+          },
+          "ResSeek": {
+            "n": 30,
+            "mean": 0.0,
+            "ci": 0.0
+          },
+          "AllyDist": {
+            "n": 30,
+            "mean": 4.426701566666667,
+            "ci": 0.8195455685670054
+          },
+          "ObjCommit": {
+            "n": 30,
+            "mean": 0.0,
+            "ci": 0.0
+          },
+          "Kills": {
+            "n": 30,
+            "mean": 8.533333333333333,
+            "ci": 1.4602020132853974
+          },
+          "Deaths": {
+            "n": 30,
+            "mean": 8.366666666666667,
+            "ci": 1.3355184619394842
+          }
+        },
+        "threat_full": {
+          "EngRedirect": {
+            "n": 30,
+            "mean": 1.0336313333333333,
+            "ci": 0.14311656364872408
+          },
+          "ResSeek": {
+            "n": 30,
+            "mean": 0.0,
+            "ci": 0.0
+          },
+          "AllyDist": {
+            "n": 30,
+            "mean": 4.5465223,
+            "ci": 0.6832636894141669
+          },
+          "ObjCommit": {
+            "n": 30,
+            "mean": 0.0,
+            "ci": 0.0
+          },
+          "Kills": {
+            "n": 30,
+            "mean": 9.166666666666666,
+            "ci": 1.3661285616574965
+          },
+          "Deaths": {
+            "n": 30,
+            "mean": 8.4,
+            "ci": 1.112033663152183
+          }
+        }
+      },
+      "tests": {
+        "adjacency_cover_only vs distance_only|EngRedirect": {
+          "n_pairs": 30,
+          "n_nonzero": 30,
+          "p": 0.7921590935438871,
+          "r": 0.05806451612903226,
+          "median_diff": 0.011756000000000016
+        },
+        "adjacency_cover_only vs distance_only|Deaths": {
+          "n_pairs": 30,
+          "n_nonzero": 28,
+          "p": 0.45678072487725485,
+          "r": -0.16009852216748768,
+          "median_diff": -0.5
+        },
+        "adjacency_cover_only vs distance_only|AllyDist": {
+          "n_pairs": 30,
+          "n_nonzero": 30,
+          "p": 0.9192965272814035,
+          "r": -0.023655913978494623,
+          "median_diff": 0.3147420000000003
+        },
+        "threat_cover_only vs distance_only|EngRedirect": {
+          "n_pairs": 30,
+          "n_nonzero": 29,
+          "p": 0.32500122487545013,
+          "r": 0.21379310344827587,
+          "median_diff": 0.12126900000000007
+        },
+        "threat_cover_only vs distance_only|Deaths": {
+          "n_pairs": 30,
+          "n_nonzero": 26,
+          "p": 0.7793822835435734,
+          "r": 0.06267806267806268,
+          "median_diff": 0.0
+        },
+        "threat_cover_only vs distance_only|AllyDist": {
+          "n_pairs": 30,
+          "n_nonzero": 30,
+          "p": 0.8871948085725307,
+          "r": 0.03225806451612903,
+          "median_diff": -0.03005300000000033
+        },
+        "threat_cover_only vs adjacency_cover_only|EngRedirect": {
+          "n_pairs": 30,
+          "n_nonzero": 30,
+          "p": 0.39305018074810505,
+          "r": 0.1827956989247312,
+          "median_diff": 0.1977290000000001
+        },
+        "threat_cover_only vs adjacency_cover_only|Deaths": {
+          "n_pairs": 30,
+          "n_nonzero": 29,
+          "p": 0.3794671022435666,
+          "r": 0.18620689655172415,
+          "median_diff": 2.0
+        },
+        "threat_cover_only vs adjacency_cover_only|AllyDist": {
+          "n_pairs": 30,
+          "n_nonzero": 30,
+          "p": 0.5425279382616282,
+          "r": 0.13118279569892474,
+          "median_diff": -0.014990999999999977
+        },
+        "threat_full vs adjacency_full|EngRedirect": {
+          "n_pairs": 30,
+          "n_nonzero": 30,
+          "p": 0.8235769439488649,
+          "r": 0.04946236559139785,
+          "median_diff": 0.014557999999999849
+        },
+        "threat_full vs adjacency_full|Deaths": {
+          "n_pairs": 30,
+          "n_nonzero": 28,
+          "p": 0.9272313952480437,
+          "r": 0.019704433497536946,
+          "median_diff": -0.5
+        },
+        "threat_full vs adjacency_full|AllyDist": {
+          "n_pairs": 30,
+          "n_nonzero": 30,
+          "p": 0.5978077705949545,
+          "r": 0.11397849462365592,
+          "median_diff": 0.4309169999999998
+        }
+      }
+    },
+    "Mission|Mission–Cooperation": {
+      "means": {
+        "distance_only": {
+          "EngRedirect": {
+            "n": 30,
+            "mean": 0.0,
+            "ci": 0.0
+          },
+          "ResSeek": {
+            "n": 30,
+            "mean": 0.0,
+            "ci": 0.0
+          },
+          "AllyDist": {
+            "n": 30,
+            "mean": 1.4650882000000003,
+            "ci": 0.30306906802794087
+          },
+          "ObjCommit": {
+            "n": 30,
+            "mean": 0.9714807333333334,
+            "ci": 0.01692813652894057
+          },
+          "Kills": {
+            "n": 30,
+            "mean": 3.066666666666667,
+            "ci": 1.6954485780427906
+          },
+          "Deaths": {
+            "n": 30,
+            "mean": 2.7666666666666666,
+            "ci": 1.5587833155274526
+          }
+        },
+        "adjacency_cover_only": {
+          "EngRedirect": {
+            "n": 30,
+            "mean": 0.0041050999999999995,
+            "ci": 0.008395872203918964
+          },
+          "ResSeek": {
+            "n": 30,
+            "mean": 0.0,
+            "ci": 0.0
+          },
+          "AllyDist": {
+            "n": 30,
+            "mean": 1.3701109333333332,
+            "ci": 0.22222511819815988
+          },
+          "ObjCommit": {
+            "n": 30,
+            "mean": 0.9723650999999999,
+            "ci": 0.018915564494387888
+          },
+          "Kills": {
+            "n": 30,
+            "mean": 3.2666666666666666,
+            "ci": 1.9314167748880051
+          },
+          "Deaths": {
+            "n": 30,
+            "mean": 2.6,
+            "ci": 1.4663355020848907
+          }
+        },
+        "threat_cover_only": {
+          "EngRedirect": {
+            "n": 30,
+            "mean": 0.0038759666666666665,
+            "ci": 0.007927241918584956
+          },
+          "ResSeek": {
+            "n": 30,
+            "mean": 0.0,
+            "ci": 0.0
+          },
+          "AllyDist": {
+            "n": 30,
+            "mean": 1.5421684666666664,
+            "ci": 0.28402285279320716
+          },
+          "ObjCommit": {
+            "n": 30,
+            "mean": 0.9672273,
+            "ci": 0.01702454691314371
+          },
+          "Kills": {
+            "n": 30,
+            "mean": 3.8666666666666667,
+            "ci": 2.1116970203368455
+          },
+          "Deaths": {
+            "n": 30,
+            "mean": 3.2,
+            "ci": 1.7607389297772316
+          }
+        },
+        "adjacency_full": {
+          "EngRedirect": {
+            "n": 30,
+            "mean": 0.012350966666666666,
+            "ci": 0.018543868800714614
+          },
+          "ResSeek": {
+            "n": 30,
+            "mean": 0.0,
+            "ci": 0.0
+          },
+          "AllyDist": {
+            "n": 30,
+            "mean": 1.5643693666666665,
+            "ci": 0.2983235563104536
+          },
+          "ObjCommit": {
+            "n": 30,
+            "mean": 0.9529171333333334,
+            "ci": 0.028474866276503853
+          },
+          "Kills": {
+            "n": 30,
+            "mean": 3.1666666666666665,
+            "ci": 1.7267786165937
+          },
+          "Deaths": {
+            "n": 30,
+            "mean": 3.066666666666667,
+            "ci": 1.770361021657654
+          }
+        },
+        "threat_full": {
+          "EngRedirect": {
+            "n": 30,
+            "mean": 0.0036710666666666665,
+            "ci": 0.007508174364911964
+          },
+          "ResSeek": {
+            "n": 30,
+            "mean": 0.0,
+            "ci": 0.0
+          },
+          "AllyDist": {
+            "n": 30,
+            "mean": 1.5016294333333333,
+            "ci": 0.2528362286217336
+          },
+          "ObjCommit": {
+            "n": 30,
+            "mean": 0.9665292999999999,
+            "ci": 0.018881253195421797
+          },
+          "Kills": {
+            "n": 30,
+            "mean": 2.6,
+            "ci": 1.4663355020848907
+          },
+          "Deaths": {
+            "n": 30,
+            "mean": 2.1666666666666665,
+            "ci": 1.2251117795123947
+          }
+        }
+      },
+      "tests": {
+        "adjacency_cover_only vs distance_only|EngRedirect": {
+          "n_pairs": 30,
+          "n_nonzero": 1,
+          "p": 1.0,
+          "r": 1.0,
+          "median_diff": 0.0
+        },
+        "adjacency_cover_only vs distance_only|Deaths": {
+          "n_pairs": 30,
+          "n_nonzero": 10,
+          "p": 0.951171875,
+          "r": 0.05454545454545454,
+          "median_diff": 0.0
+        },
+        "adjacency_cover_only vs distance_only|AllyDist": {
+          "n_pairs": 30,
+          "n_nonzero": 25,
+          "p": 0.6962687059166401,
+          "r": -0.08923076923076922,
+          "median_diff": -0.0005325000000000468
+        },
+        "threat_cover_only vs distance_only|EngRedirect": {
+          "n_pairs": 30,
+          "n_nonzero": 1,
+          "p": 1.0,
+          "r": 1.0,
+          "median_diff": 0.0
+        },
+        "threat_cover_only vs distance_only|Deaths": {
+          "n_pairs": 30,
+          "n_nonzero": 7,
+          "p": 0.28125,
+          "r": 0.5,
+          "median_diff": 0.0
+        },
+        "threat_cover_only vs distance_only|AllyDist": {
+          "n_pairs": 30,
+          "n_nonzero": 27,
+          "p": 0.24735635509551213,
+          "r": -0.25396825396825395,
+          "median_diff": -0.0021299999999999653
+        },
+        "threat_cover_only vs adjacency_cover_only|EngRedirect": {
+          "n_pairs": 30,
+          "n_nonzero": 2,
+          "p": 1.0,
+          "r": -0.3333333333333333,
+          "median_diff": 0.0
+        },
+        "threat_cover_only vs adjacency_cover_only|Deaths": {
+          "n_pairs": 30,
+          "n_nonzero": 11,
+          "p": 0.2666015625,
+          "r": 0.3939393939393939,
+          "median_diff": 0.0
+        },
+        "threat_cover_only vs adjacency_cover_only|AllyDist": {
+          "n_pairs": 30,
+          "n_nonzero": 23,
+          "p": 0.9757192727487806,
+          "r": 0.007246376811594203,
+          "median_diff": -0.0010650000000000936
+        },
+        "threat_full vs adjacency_full|EngRedirect": {
+          "n_pairs": 30,
+          "n_nonzero": 3,
+          "p": 0.5,
+          "r": -0.6666666666666666,
+          "median_diff": 0.0
+        },
+        "threat_full vs adjacency_full|Deaths": {
+          "n_pairs": 30,
+          "n_nonzero": 10,
+          "p": 0.158203125,
+          "r": -0.5272727272727272,
+          "median_diff": 0.0
+        },
+        "threat_full vs adjacency_full|AllyDist": {
+          "n_pairs": 30,
+          "n_nonzero": 23,
+          "p": 0.13586496205917817,
+          "r": -0.35507246376811596,
+          "median_diff": -0.002507000000000148
+        }
+      }
+    }
+  },
+  "main_threat": {
+    "Mission|Mission–Cooperation": {
+      "ObjCommit": {
+        "n_pairs": 30,
+        "n_nonzero": 13,
+        "p": 0.19091796875,
+        "r": 0.42857142857142855,
+        "median_diff": 0.0,
+        "adjacency": {
+          "n": 30,
+          "mean": 0.9529171333333334,
+          "ci": 0.028474866276503853
+        },
+        "threat": {
+          "n": 30,
+          "mean": 0.9665292999999999,
+          "ci": 0.018881253195421797
+        }
+      },
+      "AllyDist": {
+        "n_pairs": 30,
+        "n_nonzero": 23,
+        "p": 0.13586496205917817,
+        "r": -0.35507246376811596,
+        "median_diff": -0.002507000000000148,
+        "adjacency": {
+          "n": 30,
+          "mean": 1.5643693666666665,
+          "ci": 0.2983235563104536
+        },
+        "threat": {
+          "n": 30,
+          "mean": 1.5016294333333333,
+          "ci": 0.2528362286217336
+        }
+      },
+      "Deaths": {
+        "n_pairs": 30,
+        "n_nonzero": 10,
+        "p": 0.158203125,
+        "r": -0.5272727272727272,
+        "median_diff": 0.0,
+        "adjacency": {
+          "n": 30,
+          "mean": 3.066666666666667,
+          "ci": 1.770361021657654
+        },
+        "threat": {
+          "n": 30,
+          "mean": 2.1666666666666665,
+          "ci": 1.2251117795123947
+        }
+      }
+    },
+    "Mission|Persistent Objective": {
+      "ObjCommit": {
+        "n_pairs": 30,
+        "n_nonzero": 14,
+        "p": 0.42626953125,
+        "r": 0.2571428571428571,
+        "median_diff": 0.0,
+        "adjacency": {
+          "n": 30,
+          "mean": 0.8182103666666667,
+          "ci": 0.11608455612284391
+        },
+        "threat": {
+          "n": 30,
+          "mean": 0.8575982000000001,
+          "ci": 0.09125894514221142
+        }
+      },
+      "AllyDist": {
+        "n_pairs": 30,
+        "n_nonzero": 23,
+        "p": 0.6921462023151084,
+        "r": -0.09420289855072464,
+        "median_diff": -0.0010650000000000936,
+        "adjacency": {
+          "n": 30,
+          "mean": 2.8370381000000005,
+          "ci": 1.4320115653636314
+        },
+        "threat": {
+          "n": 30,
+          "mean": 2.9134419,
+          "ci": 1.2869190813724092
+        }
+      },
+      "Deaths": {
+        "n_pairs": 30,
+        "n_nonzero": 14,
+        "p": 0.35971077547852626,
+        "r": 0.2761904761904762,
+        "median_diff": 0.0,
+        "adjacency": {
+          "n": 30,
+          "mean": 1.7666666666666666,
+          "ci": 1.0861510682125348
+        },
+        "threat": {
+          "n": 30,
+          "mean": 2.466666666666667,
+          "ci": 1.329203349727337
+        }
+      }
+    },
+    "Mission|Aggressive": {
+      "ObjCommit": {
+        "n_pairs": 30,
+        "n_nonzero": 16,
+        "p": 0.17535400390625,
+        "r": 0.39705882352941174,
+        "median_diff": 0.0,
+        "adjacency": {
+          "n": 30,
+          "mean": 0.16250496666666667,
+          "ci": 0.11187949299191205
+        },
+        "threat": {
+          "n": 30,
+          "mean": 0.21760123333333334,
+          "ci": 0.1254246276971632
+        }
+      },
+      "AllyDist": {
+        "n_pairs": 30,
+        "n_nonzero": 30,
+        "p": 0.1459994912147522,
+        "r": 0.30752688172043013,
+        "median_diff": 1.0848065,
+        "adjacency": {
+          "n": 30,
+          "mean": 3.2035641000000004,
+          "ci": 0.7975505124248317
+        },
+        "threat": {
+          "n": 30,
+          "mean": 3.9402418666666668,
+          "ci": 0.9034737224312341
+        }
+      },
+      "Deaths": {
+        "n_pairs": 30,
+        "n_nonzero": 26,
+        "p": 0.6188707614511069,
+        "r": 0.1111111111111111,
+        "median_diff": 0.5,
+        "adjacency": {
+          "n": 30,
+          "mean": 4.8,
+          "ci": 1.4981243944684994
+        },
+        "threat": {
+          "n": 30,
+          "mean": 5.466666666666667,
+          "ci": 1.340011035218026
+        }
+      }
+    },
+    "Mission|Survival-Aware": {
+      "ObjCommit": {
+        "n_pairs": 30,
+        "n_nonzero": 11,
+        "p": 0.1474609375,
+        "r": -0.5151515151515151,
+        "median_diff": 0.0,
+        "adjacency": {
+          "n": 30,
+          "mean": 0.07731139999999999,
+          "ci": 0.08262066063507058
+        },
+        "threat": {
+          "n": 30,
+          "mean": 0.015467000000000002,
+          "ci": 0.024973525184464124
+        }
+      },
+      "AllyDist": {
+        "n_pairs": 30,
+        "n_nonzero": 30,
+        "p": 0.9515264742076397,
+        "r": 0.015053763440860216,
+        "median_diff": 0.31843350000000004,
+        "adjacency": {
+          "n": 30,
+          "mean": 4.3629521,
+          "ci": 0.867828948889906
+        },
+        "threat": {
+          "n": 30,
+          "mean": 4.388623166666667,
+          "ci": 0.8608631568160517
+        }
+      },
+      "Deaths": {
+        "n_pairs": 30,
+        "n_nonzero": 26,
+        "p": 0.23799199176701147,
+        "r": -0.2621082621082621,
+        "median_diff": -1.0,
+        "adjacency": {
+          "n": 30,
+          "mean": 2.7,
+          "ci": 0.6874786430241194
+        },
+        "threat": {
+          "n": 30,
+          "mean": 2.2333333333333334,
+          "ci": 0.601966199123659
+        }
+      }
+    },
+    "Deathmatch|Mission–Cooperation": {
+      "EngRedirect": {
+        "n_pairs": 30,
+        "n_nonzero": 25,
+        "p": 0.4195259892526826,
+        "r": 0.18461538461538463,
+        "median_diff": 0.005264999999999999,
+        "adjacency": {
+          "n": 30,
+          "mean": 0.20029666666666665,
+          "ci": 0.11440975713763651
+        },
+        "threat": {
+          "n": 30,
+          "mean": 0.22516066666666668,
+          "ci": 0.08487053516920402
+        }
+      },
+      "ResSeek": {
+        "n_pairs": 30,
+        "n_nonzero": 15,
+        "p": 0.410103931438363,
+        "r": 0.24166666666666667,
+        "median_diff": 0.0,
+        "adjacency": {
+          "n": 30,
+          "mean": 0.2118374,
+          "ci": 0.3567182719937167
+        },
+        "threat": {
+          "n": 30,
+          "mean": 0.3228863666666667,
+          "ci": 0.5153566629277744
+        }
+      },
+      "Deaths": {
+        "n_pairs": 30,
+        "n_nonzero": 25,
+        "p": 0.4342350160626973,
+        "r": 0.17846153846153845,
+        "median_diff": 1.0,
+        "adjacency": {
+          "n": 30,
+          "mean": 5.633333333333334,
+          "ci": 1.5015971647937087
+        },
+        "threat": {
+          "n": 30,
+          "mean": 6.3,
+          "ci": 1.2677996876805753
+        }
+      }
+    },
+    "Deathmatch|Persistent Objective": {
+      "EngRedirect": {
+        "n_pairs": 30,
+        "n_nonzero": 16,
+        "p": 0.2773696133737247,
+        "r": 0.3088235294117647,
+        "median_diff": 0.0,
+        "adjacency": {
+          "n": 30,
+          "mean": 0.04565486666666666,
+          "ci": 0.0299418410668523
+        },
+        "threat": {
+          "n": 30,
+          "mean": 0.05789286666666667,
+          "ci": 0.02823735588347784
+        }
+      },
+      "ResSeek": {
+        "n_pairs": 30,
+        "n_nonzero": 2,
+        "p": 0.5,
+        "r": 1.0,
+        "median_diff": 0.0,
+        "adjacency": {
+          "n": 30,
+          "mean": 0.0,
+          "ci": 0.0
+        },
+        "threat": {
+          "n": 30,
+          "mean": 0.006655333333333333,
+          "ci": 0.009469086761468107
+        }
+      },
+      "Deaths": {
+        "n_pairs": 30,
+        "n_nonzero": 24,
+        "p": 0.9766131710558794,
+        "r": -0.006666666666666667,
+        "median_diff": 0.0,
+        "adjacency": {
+          "n": 30,
+          "mean": 4.0,
+          "ci": 0.8086338296617798
+        },
+        "threat": {
+          "n": 30,
+          "mean": 3.8333333333333335,
+          "ci": 0.643653445676217
+        }
+      }
+    },
+    "Deathmatch|Aggressive": {
+      "EngRedirect": {
+        "n_pairs": 30,
+        "n_nonzero": 30,
+        "p": 0.8235769439488649,
+        "r": 0.04946236559139785,
+        "median_diff": 0.014557999999999849,
+        "adjacency": {
+          "n": 30,
+          "mean": 1.0118231333333332,
+          "ci": 0.15401706283921776
+        },
+        "threat": {
+          "n": 30,
+          "mean": 1.0336313333333333,
+          "ci": 0.14311656364872408
+        }
+      },
+      "ResSeek": {
+        "n_pairs": 30,
+        "n_nonzero": 0,
+        "p": 1.0,
+        "r": 0.0,
+        "median_diff": 0.0,
+        "adjacency": {
+          "n": 30,
+          "mean": 0.0,
+          "ci": 0.0
+        },
+        "threat": {
+          "n": 30,
+          "mean": 0.0,
+          "ci": 0.0
+        }
+      },
+      "Deaths": {
+        "n_pairs": 30,
+        "n_nonzero": 28,
+        "p": 0.9272313952480437,
+        "r": 0.019704433497536946,
+        "median_diff": -0.5,
+        "adjacency": {
+          "n": 30,
+          "mean": 8.366666666666667,
+          "ci": 1.3355184619394842
+        },
+        "threat": {
+          "n": 30,
+          "mean": 8.4,
+          "ci": 1.112033663152183
+        }
+      }
+    },
+    "Deathmatch|Survival-Aware": {
+      "EngRedirect": {
+        "n_pairs": 30,
+        "n_nonzero": 28,
+        "p": 0.3989470452070236,
+        "r": 0.18719211822660098,
+        "median_diff": 0.0,
+        "adjacency": {
+          "n": 30,
+          "mean": 0.3771753,
+          "ci": 0.1072823124865479
+        },
+        "threat": {
+          "n": 30,
+          "mean": 0.5123890666666667,
+          "ci": 0.1642759689262886
+        }
+      },
+      "ResSeek": {
+        "n_pairs": 30,
+        "n_nonzero": 29,
+        "p": 0.9139011654660749,
+        "r": 0.022988505747126436,
+        "median_diff": -0.006509500000000001,
+        "adjacency": {
+          "n": 30,
+          "mean": 0.4452455,
+          "ci": 0.12211676510257133
+        },
+        "threat": {
+          "n": 30,
+          "mean": 0.4571189333333333,
+          "ci": 0.10897696555278823
+        }
+      },
+      "Deaths": {
+        "n_pairs": 30,
+        "n_nonzero": 28,
+        "p": 0.292217181837378,
+        "r": 0.22660098522167488,
+        "median_diff": 1.0,
+        "adjacency": {
+          "n": 30,
+          "mean": 3.3333333333333335,
+          "ci": 0.8282161775002689
+        },
+        "threat": {
+          "n": 30,
+          "mean": 4.0,
+          "ci": 0.9855034225462185
+        }
+      }
+    },
+    "Control|Mission–Cooperation": {
+      "CtrlScore": {
+        "n_pairs": 30,
+        "n_nonzero": 3,
+        "p": 0.25,
+        "r": -1.0,
+        "median_diff": 0.0,
+        "adjacency": {
+          "n": 30,
+          "mean": 120.0,
+          "ci": 0.0
+        },
+        "threat": {
+          "n": 30,
+          "mean": 113.13333333333334,
+          "ci": 7.963354868192884
+        }
+      },
+      "ObjCommit": {
+        "n_pairs": 30,
+        "n_nonzero": 13,
+        "p": 0.068115234375,
+        "r": -0.5824175824175825,
+        "median_diff": 0.0,
+        "adjacency": {
+          "n": 30,
+          "mean": 0.9640313666666667,
+          "ci": 0.020713405994066014
+        },
+        "threat": {
+          "n": 30,
+          "mean": 0.9300051333333333,
+          "ci": 0.038337472965374104
+        }
+      },
+      "Deaths": {
+        "n_pairs": 30,
+        "n_nonzero": 11,
+        "p": 0.52734375,
+        "r": 0.22727272727272727,
+        "median_diff": 0.0,
+        "adjacency": {
+          "n": 30,
+          "mean": 1.4,
+          "ci": 1.0813449028706494
+        },
+        "threat": {
+          "n": 30,
+          "mean": 1.5333333333333334,
+          "ci": 0.9392063872308364
+        }
+      },
+      "wins": {
+        "adjacency": 30,
+        "threat": 27
+      }
+    },
+    "Control|Persistent Objective": {
+      "CtrlScore": {
+        "n_pairs": 30,
+        "n_nonzero": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "median_diff": 0.0,
+        "adjacency": {
+          "n": 30,
+          "mean": 119.03333333333333,
+          "ci": 1.9770553207282806
+        },
+        "threat": {
+          "n": 30,
+          "mean": 120.0,
+          "ci": 0.0
+        }
+      },
+      "ObjCommit": {
+        "n_pairs": 30,
+        "n_nonzero": 13,
+        "p": 0.83935546875,
+        "r": -0.07692307692307693,
+        "median_diff": 0.0,
+        "adjacency": {
+          "n": 30,
+          "mean": 0.8832473,
+          "ci": 0.07910223830950061
+        },
+        "threat": {
+          "n": 30,
+          "mean": 0.8869204666666667,
+          "ci": 0.06178273434326885
+        }
+      },
+      "Deaths": {
+        "n_pairs": 30,
+        "n_nonzero": 9,
+        "p": 0.84375,
+        "r": 0.1111111111111111,
+        "median_diff": 0.0,
+        "adjacency": {
+          "n": 30,
+          "mean": 1.5,
+          "ci": 0.7767912323842101
+        },
+        "threat": {
+          "n": 30,
+          "mean": 1.5666666666666667,
+          "ci": 0.7825468428438586
+        }
+      },
+      "wins": {
+        "adjacency": 29,
+        "threat": 30
+      }
+    },
+    "Control|Aggressive": {
+      "CtrlScore": {
+        "n_pairs": 30,
+        "n_nonzero": 12,
+        "p": 0.91455078125,
+        "r": -0.05128205128205128,
+        "median_diff": 0.0,
+        "adjacency": {
+          "n": 30,
+          "mean": 36.1,
+          "ci": 20.334024627692525
+        },
+        "threat": {
+          "n": 30,
+          "mean": 35.2,
+          "ci": 19.41498949014197
+        }
+      },
+      "ObjCommit": {
+        "n_pairs": 30,
+        "n_nonzero": 19,
+        "p": 0.70855712890625,
+        "r": -0.10526315789473684,
+        "median_diff": 0.0,
+        "adjacency": {
+          "n": 30,
+          "mean": 0.16216923333333338,
+          "ci": 0.09213037831850222
+        },
+        "threat": {
+          "n": 30,
+          "mean": 0.14397383333333336,
+          "ci": 0.08963659909688577
+        }
+      },
+      "Deaths": {
+        "n_pairs": 30,
+        "n_nonzero": 27,
+        "p": 0.5546177021943197,
+        "r": 0.12962962962962962,
+        "median_diff": 0.5,
+        "adjacency": {
+          "n": 30,
+          "mean": 4.866666666666666,
+          "ci": 1.3542871238942285
+        },
+        "threat": {
+          "n": 30,
+          "mean": 5.3,
+          "ci": 1.3628397941212569
+        }
+      },
+      "wins": {
+        "adjacency": 8,
+        "threat": 7
+      }
+    },
+    "Control|Survival-Aware": {
+      "CtrlScore": {
+        "n_pairs": 30,
+        "n_nonzero": 11,
+        "p": 0.412109375,
+        "r": 0.30303030303030304,
+        "median_diff": 0.0,
+        "adjacency": {
+          "n": 30,
+          "mean": 14.1,
+          "ci": 13.550685365630738
+        },
+        "threat": {
+          "n": 30,
+          "mean": 18.933333333333334,
+          "ci": 15.226337598219834
+        }
+      },
+      "ObjCommit": {
+        "n_pairs": 30,
+        "n_nonzero": 10,
+        "p": 0.375,
+        "r": 0.34545454545454546,
+        "median_diff": 0.0,
+        "adjacency": {
+          "n": 30,
+          "mean": 0.0384457,
+          "ci": 0.051170847962061596
+        },
+        "threat": {
+          "n": 30,
+          "mean": 0.06168136666666667,
+          "ci": 0.06024784399625671
+        }
+      },
+      "Deaths": {
+        "n_pairs": 30,
+        "n_nonzero": 22,
+        "p": 0.25904638223955767,
+        "r": 0.2727272727272727,
+        "median_diff": 0.0,
+        "adjacency": {
+          "n": 30,
+          "mean": 2.6,
+          "ci": 0.8062519869925995
+        },
+        "threat": {
+          "n": 30,
+          "mean": 3.1,
+          "ci": 0.7026963115785324
+        }
+      },
+      "wins": {
+        "adjacency": 2,
+        "threat": 3
+      }
+    }
+  },
+  "lambda_scale_threat": {
+    "Mission|Mission–Cooperation": {
+      "per_scale": {
+        "0": {
+          "AllyDist": {
+            "n": 30,
+            "mean": 1.4650882000000003,
+            "ci": 0.30306906802794087
+          },
+          "EngRedirect": {
+            "n": 30,
+            "mean": 0.0,
+            "ci": 0.0
+          },
+          "ResSeek": {
+            "n": 30,
+            "mean": 0.0,
+            "ci": 0.0
+          },
+          "Kills": {
+            "n": 30,
+            "mean": 3.066666666666667,
+            "ci": 1.6954485780427906
+          },
+          "Deaths": {
+            "n": 30,
+            "mean": 2.7666666666666666,
+            "ci": 1.5587833155274526
+          }
+        },
+        "0.25": {
+          "AllyDist": {
+            "n": 30,
+            "mean": 1.5111875333333333,
+            "ci": 0.2685283996180664
+          },
+          "EngRedirect": {
+            "n": 30,
+            "mean": 0.0043630000000000006,
+            "ci": 0.008923336928624986
+          },
+          "ResSeek": {
+            "n": 30,
+            "mean": 0.0,
+            "ci": 0.0
+          },
+          "Kills": {
+            "n": 30,
+            "mean": 3.8,
+            "ci": 2.062552487094949
+          },
+          "Deaths": {
+            "n": 30,
+            "mean": 3.1666666666666665,
+            "ci": 1.7571398632960888
+          }
+        },
+        "0.5": {
+          "AllyDist": {
+            "n": 30,
+            "mean": 1.4621314,
+            "ci": 0.2430882446632881
+          },
+          "EngRedirect": {
+            "n": 30,
+            "mean": 0.0,
+            "ci": 0.0
+          },
+          "ResSeek": {
+            "n": 30,
+            "mean": 0.0,
+            "ci": 0.0
+          },
+          "Kills": {
+            "n": 30,
+            "mean": 3.2,
+            "ci": 1.840837275434793
+          },
+          "Deaths": {
+            "n": 30,
+            "mean": 2.3666666666666667,
+            "ci": 1.2766179555461141
+          }
+        },
+        "1": {
+          "AllyDist": {
+            "n": 30,
+            "mean": 1.5016294333333333,
+            "ci": 0.2528362286217336
+          },
+          "EngRedirect": {
+            "n": 30,
+            "mean": 0.0036710666666666665,
+            "ci": 0.007508174364911964
+          },
+          "ResSeek": {
+            "n": 30,
+            "mean": 0.0,
+            "ci": 0.0
+          },
+          "Kills": {
+            "n": 30,
+            "mean": 2.6,
+            "ci": 1.4663355020848907
+          },
+          "Deaths": {
+            "n": 30,
+            "mean": 2.1666666666666665,
+            "ci": 1.2251117795123947
+          }
+        },
+        "2": {
+          "AllyDist": {
+            "n": 30,
+            "mean": 1.5410144333333333,
+            "ci": 0.26470344833560594
+          },
+          "EngRedirect": {
+            "n": 30,
+            "mean": 0.0036710666666666665,
+            "ci": 0.007508174364911964
+          },
+          "ResSeek": {
+            "n": 30,
+            "mean": 0.0,
+            "ci": 0.0
+          },
+          "Kills": {
+            "n": 30,
+            "mean": 2.6333333333333333,
+            "ci": 1.475759454124307
+          },
+          "Deaths": {
+            "n": 30,
+            "mean": 2.1666666666666665,
+            "ci": 1.2053293421304012
+          }
+        }
+      },
+      "spearman": {
+        "AllyDist": {
+          "rho": -0.06659660497067614,
+          "p": 0.4181041412333672
+        },
+        "EngRedirect": {
+          "rho": 0.06621810823326366,
+          "p": 0.4207604570568332
+        },
+        "Deaths": {
+          "rho": -0.03276550815944828,
+          "p": 0.6905979118010928
+        }
+      },
+      "x1_vs_x0|AllyDist": {
+        "n_pairs": 30,
+        "n_nonzero": 27,
+        "p": 0.3725560524955269,
+        "r": -0.19576719576719576,
+        "median_diff": -0.0021299999999999653
+      },
+      "x1_vs_x0|EngRedirect": {
+        "n_pairs": 30,
+        "n_nonzero": 1,
+        "p": 1.0,
+        "r": 1.0,
+        "median_diff": 0.0
+      },
+      "x1_vs_x0|Deaths": {
+        "n_pairs": 30,
+        "n_nonzero": 11,
+        "p": 0.3486328125,
+        "r": -0.3333333333333333,
+        "median_diff": 0.0
+      }
+    },
+    "Deathmatch|Survival-Aware": {
+      "per_scale": {
+        "0": {
+          "AllyDist": {
+            "n": 30,
+            "mean": 4.227454633333333,
+            "ci": 0.6927172113697788
+          },
+          "EngRedirect": {
+            "n": 30,
+            "mean": 0.6723216666666668,
+            "ci": 0.1701790898041506
+          },
+          "ResSeek": {
+            "n": 30,
+            "mean": 0.7904925999999999,
+            "ci": 0.1467292055038119
+          },
+          "Kills": {
+            "n": 30,
+            "mean": 7.5,
+            "ci": 1.2662818186087181
+          },
+          "Deaths": {
+            "n": 30,
+            "mean": 6.2,
+            "ci": 1.067021821432271
+          }
+        },
+        "0.25": {
+          "AllyDist": {
+            "n": 30,
+            "mean": 4.6764277,
+            "ci": 0.8597345265704812
+          },
+          "EngRedirect": {
+            "n": 30,
+            "mean": 1.4842308,
+            "ci": 1.6184124409052691
+          },
+          "ResSeek": {
+            "n": 30,
+            "mean": 0.5173316666666666,
+            "ci": 0.14274724151275192
+          },
+          "Kills": {
+            "n": 30,
+            "mean": 5.133333333333334,
+            "ci": 1.2509377833722939
+          },
+          "Deaths": {
+            "n": 30,
+            "mean": 3.933333333333333,
+            "ci": 1.0140374685807922
+          }
+        },
+        "0.5": {
+          "AllyDist": {
+            "n": 30,
+            "mean": 4.216634933333333,
+            "ci": 0.8943591646481934
+          },
+          "EngRedirect": {
+            "n": 30,
+            "mean": 0.5259162000000001,
+            "ci": 0.13391885612432453
+          },
+          "ResSeek": {
+            "n": 30,
+            "mean": 0.5029353000000001,
+            "ci": 0.12742187553022893
+          },
+          "Kills": {
+            "n": 30,
+            "mean": 4.5,
+            "ci": 1.0640888877362191
+          },
+          "Deaths": {
+            "n": 30,
+            "mean": 3.9,
+            "ci": 0.9164924774719214
+          }
+        },
+        "1": {
+          "AllyDist": {
+            "n": 30,
+            "mean": 4.4581450333333335,
+            "ci": 0.7901420509248409
+          },
+          "EngRedirect": {
+            "n": 30,
+            "mean": 0.5123890666666667,
+            "ci": 0.1642759689262886
+          },
+          "ResSeek": {
+            "n": 30,
+            "mean": 0.4571189333333333,
+            "ci": 0.10897696555278823
+          },
+          "Kills": {
+            "n": 30,
+            "mean": 4.0,
+            "ci": 0.8987462535287374
+          },
+          "Deaths": {
+            "n": 30,
+            "mean": 4.0,
+            "ci": 0.9855034225462185
+          }
+        },
+        "2": {
+          "AllyDist": {
+            "n": 30,
+            "mean": 4.464242566666667,
+            "ci": 1.2172173794835206
+          },
+          "EngRedirect": {
+            "n": 30,
+            "mean": 0.3603518,
+            "ci": 0.13626980397285518
+          },
+          "ResSeek": {
+            "n": 30,
+            "mean": 0.3369777333333333,
+            "ci": 0.11478943482493238
+          },
+          "Kills": {
+            "n": 30,
+            "mean": 3.4,
+            "ci": 1.0312762435474745
+          },
+          "Deaths": {
+            "n": 30,
+            "mean": 3.0,
+            "ci": 1.0096024193462647
+          }
+        }
+      },
+      "spearman": {
+        "AllyDist": {
+          "rho": -0.059551564173832415,
+          "p": 0.46912949753420047
+        },
+        "EngRedirect": {
+          "rho": -0.2722900169428018,
+          "p": 0.0007492720795019575
+        },
+        "Deaths": {
+          "rho": -0.3126267011418067,
+          "p": 9.822415716756469e-05
+        }
+      },
+      "x1_vs_x0|AllyDist": {
+        "n_pairs": 30,
+        "n_nonzero": 30,
+        "p": 0.28936620615422726,
+        "r": 0.22580645161290322,
+        "median_diff": 0.5102735000000003
+      },
+      "x1_vs_x0|EngRedirect": {
+        "n_pairs": 30,
+        "n_nonzero": 30,
+        "p": 0.11417667381465435,
+        "r": -0.3333333333333333,
+        "median_diff": -0.18313000000000001
+      },
+      "x1_vs_x0|Deaths": {
+        "n_pairs": 30,
+        "n_nonzero": 29,
+        "p": 0.006407435892158069,
+        "r": -0.5770114942528736,
+        "median_diff": -3.0
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+~/anaconda3/bin/python experiments/run_h3_factorial.py --scenario transit --map corridor --out ../repro_outputs/h3_factorial > ../h3_logs/transit_corridor.log 2>&1
+~/anaconda3/bin/python experiments/run_h3_factorial.py --scenario transit --map random --out ../repro_outputs/h3_factorial > ../h3_logs/transit_random.log 2>&1
+~/anaconda3/bin/python experiments/run_h3_factorial.py --scenario transit --map urban --out ../repro_outputs/h3_factorial > ../h3_logs/transit_urban.log 2>&1
+~/anaconda3/bin/python experiments/run_h3_factorial.py --scenario deathmatch --map random --style SA --shard 0/2 --out ../repro_outputs/h3_factorial > ../h3_logs/deathmatch_random_SA_0.log 2>&1
+~/anaconda3/bin/python experiments/run_h3_factorial.py --scenario deathmatch --map random --style SA --shard 1/2 --out ../repro_outputs/h3_factorial > ../h3_logs/deathmatch_random_SA_1.log 2>&1
+~/anaconda3/bin/python experiments/run_h3_factorial.py --scenario deathmatch --map urban --style SA --shard 0/2 --out ../repro_outputs/h3_factorial > ../h3_logs/deathmatch_urban_SA_0.log 2>&1
+~/anaconda3/bin/python experiments/run_h3_factorial.py --scenario deathmatch --map urban --style SA --shard 1/2 --out ../repro_outputs/h3_factorial > ../h3_logs/deathmatch_urban_SA_1.log 2>&1
+~/anaconda3/bin/python experiments/run_h3_factorial.py --scenario control --map random --style SA --shard 0/2 --out ../repro_outputs/h3_factorial > ../h3_logs/control_random_SA_0.log 2>&1
+~/anaconda3/bin/python experiments/run_h3_factorial.py --scenario control --map random --style SA --shard 1/2 --out ../repro_outputs/h3_factorial > ../h3_logs/control_random_SA_1.log 2>&1
+~/anaconda3/bin/python experiments/run_h3_factorial.py --scenario control --map random --style Objective --shard 0/2 --out ../repro_outputs/h3_factorial > ../h3_logs/control_random_Objective_0.log 2>&1
+~/anaconda3/bin/python experiments/run_h3_factorial.py --scenario control --map random --style Objective --shard 1/2 --out ../repro_outputs/h3_factorial > ../h3_logs/control_random_Objective_1.log 2>&1
+~/anaconda3/bin/python experiments/run_h3_factorial.py --scenario control --map urban --style SA --shard 0/2 --out ../repro_outputs/h3_factorial > ../h3_logs/control_urban_SA_0.log 2>&1
+~/anaconda3/bin/python experiments/run_h3_factorial.py --scenario control --map urban --style SA --shard 1/2 --out ../repro_outputs/h3_factorial > ../h3_logs/control_urban_SA_1.log 2>&1
+~/anaconda3/bin/python experiments/run_h3_factorial.py --scenario control --map urban --style Objective --shard 0/2 --out ../repro_outputs/h3_factorial > ../h3_logs/control_urban_Objective_0.log 2>&1
+~/anaconda3/bin/python experiments/run_h3_factorial.py --scenario control --map urban --style Objective --shard 1/2 --out ../repro_outputs/h3_factorial > ../h3_logs/control_urban_Objective_1.log 2>&1
+~/anaconda3/bin/python experiments/run_h3_factorial.py --scenario control_hold --map random --style SA --shard 0/2 --out ../repro_outputs/h3_factorial > ../h3_logs/control_hold_random_SA_0.log 2>&1
+~/anaconda3/bin/python experiments/run_h3_factorial.py --scenario control_hold --map random --style SA --shard 1/2 --out ../repro_outputs/h3_factorial > ../h3_logs/control_hold_random_SA_1.log 2>&1
+~/anaconda3/bin/python experiments/run_h3_factorial.py --scenario control_hold --map random --style Objective --shard 0/2 --out ../repro_outputs/h3_factorial > ../h3_logs/control_hold_random_Objective_0.log 2>&1
+~/anaconda3/bin/python experiments/run_h3_factorial.py --scenario control_hold --map random --style Objective --shard 1/2 --out ../repro_outputs/h3_factorial > ../h3_logs/control_hold_random_Objective_1.log 2>&1
+~/anaconda3/bin/python experiments/run_h3_factorial.py --scenario control_hold --map urban --style SA --shard 0/2 --out ../repro_outputs/h3_factorial > ../h3_logs/control_hold_urban_SA_0.log 2>&1
+~/anaconda3/bin/python experiments/run_h3_factorial.py --scenario control_hold --map urban --style SA --shard 1/2 --out ../repro_outputs/h3_factorial > ../h3_logs/control_hold_urban_SA_1.log 2>&1
+~/anaconda3/bin/python experiments/run_h3_factorial.py --scenario control_hold --map urban --style Objective --shard 0/2 --out ../repro_outputs/h3_factorial > ../h3_logs/control_hold_urban_Objective_0.log 2>&1
+~/anaconda3/bin/python experiments/run_h3_factorial.py --scenario control_hold --map urban --style Objective --shard 1/2 --out ../repro_outputs/h3_factorial > ../h3_logs/control_hold_urban_Objective_1.log 2>&1

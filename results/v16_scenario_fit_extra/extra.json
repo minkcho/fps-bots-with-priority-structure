@@ -1,0 +1,318 @@
+{
+ "CSO-BT|Mission": {
+  "D2_fit": 0.6544582275893325,
+  "D2_styles": {
+   "Mission\u2013Cooperation": 21.988944836581837,
+   "Mission\u2013Cooperation [route off]": 22.354468985113197,
+   "Persistent Objective": 22.250490262623586,
+   "Persistent Objective [route off]": 22.2490528128927,
+   "Aggressive": 7.30465849432643,
+   "Aggressive [route off]": 5.459708573090676,
+   "Survival-Aware": 55.81901203074148,
+   "Survival-Aware [route off]": 53.08754190629309
+  },
+  "nearest_style": "Aggressive [route off]",
+  "D2_nearest_style": 5.459708573090676,
+  "G": 0.34622325503114193,
+  "noise_floor": {
+   "fit_mean": 0.8566660569225301,
+   "tree_p95": 0.419302926605114,
+   "within": false
+  },
+  "classifier": {
+   "auc": 0.966825,
+   "ci": [
+    0.948218737952824,
+    0.9832259540343731
+   ],
+   "p_perm": 0.000999000999000999
+  },
+  "cohens_d": {
+   "kills": 0.2438593641076445,
+   "deaths": 0.44014609114871983,
+   "hits_taken_per_step": 0.5637497330268308
+  },
+  "outcome_means": {
+   "kills": {
+    "fit": 15.385,
+    "tree": 14.755
+   },
+   "deaths": {
+    "fit": 15.245,
+    "tree": 14.02
+   },
+   "hits_taken_per_step": {
+    "fit": 0.087479085,
+    "tree": 0.07645034499999999
+   }
+  },
+  "active_weights_deathmatch": null
+ },
+ "CSO-BT|Control": {
+  "D2_fit": 0.5936244478243898,
+  "D2_styles": {
+   "Mission\u2013Cooperation": 13.003904531152301,
+   "Mission\u2013Cooperation [route off]": 13.335176181255333,
+   "Persistent Objective": 13.244452802430454,
+   "Persistent Objective [route off]": 13.394784322583638,
+   "Aggressive": 5.598994233465938,
+   "Aggressive [route off]": 4.403303985250743,
+   "Survival-Aware": 38.37829706135749,
+   "Survival-Aware [route off]": 35.08497355664229
+  },
+  "nearest_style": "Aggressive [route off]",
+  "D2_nearest_style": 4.403303985250743,
+  "G": 0.36716946368914594,
+  "noise_floor": {
+   "fit_mean": 0.8123531026161106,
+   "tree_p95": 0.37579529482294544,
+   "within": false
+  },
+  "classifier": {
+   "auc": 0.9469500000000001,
+   "ci": [
+    0.921143323103105,
+    0.9691404044258859
+   ],
+   "p_perm": 0.000999000999000999
+  },
+  "cohens_d": {
+   "kills": 0.04579935442279081,
+   "deaths": 0.18649087009085236,
+   "hits_taken_per_step": 0.5160865443326538,
+   "win": 0.22845327964655424
+  },
+  "outcome_means": {
+   "kills": {
+    "fit": 9.585,
+    "tree": 9.45
+   },
+   "deaths": {
+    "fit": 9.42,
+    "tree": 8.695
+   },
+   "hits_taken_per_step": {
+    "fit": 0.085458795,
+    "tree": 0.07386640500000001
+   },
+   "win": {
+    "fit": 0.745,
+    "tree": 0.64
+   }
+  },
+  "active_weights_deathmatch": null
+ },
+ "OW-BT|Mission": {
+  "D2_fit": 1.3096121419306042,
+  "D2_styles": {
+   "Mission\u2013Cooperation": 12.57500471624573,
+   "Mission\u2013Cooperation [route off]": 12.403171689526381,
+   "Persistent Objective": 12.752289723764276,
+   "Persistent Objective [route off]": 12.617495890391494,
+   "Aggressive": 33.069009653305514,
+   "Aggressive [route off]": 32.20015760528189,
+   "Survival-Aware": 53.347454297708616,
+   "Survival-Aware [route off]": 51.26974595126137
+  },
+  "nearest_style": "Mission\u2013Cooperation [route off]",
+  "D2_nearest_style": 12.403171689526381,
+  "G": 0.3249413412503365,
+  "noise_floor": {
+   "fit_mean": 1.1774314078785146,
+   "tree_p95": 0.3910993834918918,
+   "within": false
+  },
+  "classifier": {
+   "auc": 0.971175,
+   "ci": [
+    0.9553380043825416,
+    0.9850700367059433
+   ],
+   "p_perm": 0.000999000999000999
+  },
+  "cohens_d": {
+   "kills": -0.05959067150698588,
+   "deaths": 0.08149446819331563,
+   "hits_taken_per_step": 0.15270438568997094
+  },
+  "outcome_means": {
+   "kills": {
+    "fit": 16.41,
+    "tree": 16.58
+   },
+   "deaths": {
+    "fit": 12.195,
+    "tree": 11.93
+   },
+   "hits_taken_per_step": {
+    "fit": 0.076762825,
+    "tree": 0.073925305
+   }
+  },
+  "active_weights_deathmatch": null
+ },
+ "OW-BT|Control": {
+  "D2_fit": 0.57189756962881,
+  "D2_styles": {
+   "Mission\u2013Cooperation": 10.121329051354056,
+   "Mission\u2013Cooperation [route off]": 10.044276753997588,
+   "Persistent Objective": 10.224456131149937,
+   "Persistent Objective [route off]": 10.15241486380566,
+   "Aggressive": 25.885479240382143,
+   "Aggressive [route off]": 24.718867454696717,
+   "Survival-Aware": 37.37103703643004,
+   "Survival-Aware [route off]": 33.65638127133194
+  },
+  "nearest_style": "Mission\u2013Cooperation [route off]",
+  "D2_nearest_style": 10.044276753997588,
+  "G": 0.2386161258303301,
+  "noise_floor": {
+   "fit_mean": 0.8107713130897937,
+   "tree_p95": 0.3874873954946889,
+   "within": false
+  },
+  "classifier": {
+   "auc": 0.8692500000000001,
+   "ci": [
+    0.8343952295304341,
+    0.9009290415538252
+   ],
+   "p_perm": 0.000999000999000999
+  },
+  "cohens_d": {
+   "kills": -0.11401118019217538,
+   "deaths": 0.131824131079366,
+   "hits_taken_per_step": 0.2825845079809376,
+   "win": 0.0
+  },
+  "outcome_means": {
+   "kills": {
+    "fit": 6.835,
+    "tree": 7.055
+   },
+   "deaths": {
+    "fit": 4.685,
+    "tree": 4.34
+   },
+   "hits_taken_per_step": {
+    "fit": 0.07266432,
+    "tree": 0.06604668999999999
+   },
+   "win": {
+    "fit": 0.935,
+    "tree": 0.935
+   }
+  },
+  "active_weights_deathmatch": null
+ },
+ "AC-BT|Deathmatch": {
+  "D2_fit": 5.632702940932861,
+  "D2_styles": {
+   "Mission\u2013Cooperation": 13.115433959781878,
+   "Mission\u2013Cooperation [route off]": 14.92399374735293,
+   "Persistent Objective": 20.442544779490163,
+   "Persistent Objective [route off]": 19.32158857588771,
+   "Aggressive": 6.418800103490289,
+   "Aggressive [route off]": 7.862323474304248,
+   "Survival-Aware": 18.044385568666677,
+   "Survival-Aware [route off]": 16.80584945715126
+  },
+  "nearest_style": "Aggressive",
+  "D2_nearest_style": 6.418800103490289,
+  "G": 0.9367668172365483,
+  "noise_floor": {
+   "fit_mean": 2.3880275707324627,
+   "tree_p95": 0.31207147178266953,
+   "within": false
+  },
+  "classifier": {
+   "auc": 1.0,
+   "ci": [
+    0.9999999999999999,
+    1.0
+   ],
+   "p_perm": 0.000999000999000999
+  },
+  "cohens_d": {
+   "kills": 0.48337053606078234,
+   "deaths": -0.2131058055535918,
+   "hits_taken_per_step": -0.11077808535853026
+  },
+  "outcome_means": {
+   "kills": {
+    "fit": 13.92,
+    "tree": 12.38
+   },
+   "deaths": {
+    "fit": 14.515,
+    "tree": 15.21
+   },
+   "hits_taken_per_step": {
+    "fit": 0.09138323,
+    "tree": 0.09422475999999999
+   }
+  },
+  "active_weights_deathmatch": {
+   "w_engage": 0.4278721949085593,
+   "w_resource": 0.4073741368439633,
+   "w_team": 0.16475366824747736,
+   "w_commitment": 0.33528428306302616,
+   "sum_of_active_weights": 0.9216631455346942
+  }
+ },
+ "XO-BT|Deathmatch": {
+  "D2_fit": 1.8577153721778374,
+  "D2_styles": {
+   "Mission\u2013Cooperation": 25.537302794320375,
+   "Mission\u2013Cooperation [route off]": 27.637084409175895,
+   "Persistent Objective": 32.15822430660568,
+   "Persistent Objective [route off]": 32.357591481338,
+   "Aggressive": 24.511459058532598,
+   "Aggressive [route off]": 26.382178746477553,
+   "Survival-Aware": 30.82872725007318,
+   "Survival-Aware [route off]": 29.881990719602722
+  },
+  "nearest_style": "Aggressive",
+  "D2_nearest_style": 24.511459058532598,
+  "G": 0.2752992356322739,
+  "noise_floor": {
+   "fit_mean": 1.4087881677782874,
+   "tree_p95": 0.44133844696648716,
+   "within": false
+  },
+  "classifier": {
+   "auc": 0.9869749999999999,
+   "ci": [
+    0.9765244970473426,
+    0.9944197538666067
+   ],
+   "p_perm": 0.000999000999000999
+  },
+  "cohens_d": {
+   "kills": -0.2967400199971807,
+   "deaths": 0.5965740246967425,
+   "hits_taken_per_step": 0.15383435131025647
+  },
+  "outcome_means": {
+   "kills": {
+    "fit": 15.395,
+    "tree": 16.28
+   },
+   "deaths": {
+    "fit": 17.095,
+    "tree": 15.075
+   },
+   "hits_taken_per_step": {
+    "fit": 0.11162746,
+    "tree": 0.10754972500000001
+   }
+  },
+  "active_weights_deathmatch": {
+   "w_engage": 0.9317596359178423,
+   "w_resource": 0.06748177735339266,
+   "w_team": 0.0007585867287649583,
+   "w_commitment": 0.04524267208841522,
+   "sum_of_active_weights": 0.478256608228183
+  }
+ }
+}

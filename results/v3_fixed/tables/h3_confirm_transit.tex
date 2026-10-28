@@ -1,0 +1,50 @@
+\begin{tabular}{llllcccc}
+\toprule
+Scenario / map / style & Field & Knowledge & $\lambda_E$ & Walked hits per step & LOS fraction & Deaths & Outcome \\
+\midrule
+transit / corridor / Transit & distance-only A$^*$ & -- & 0 & 0.0377 & 0.124 & 0.12 & arrived 0.89 \\
+ & earlier additive model & -- & 0.55 & 0.0377 & 0.124 & 0.12 & arrived 0.89 \\
+ & distance / exp & all & 5 & 0.0377 & 0.124 & 0.12 & arrived 0.89 \\
+ & distance / exp & all & 10 & 0.0000 & 0.000 & 0.00 & arrived 1.00 \\
+ & distance / exp & all & 20 & 0.0000 & 0.000 & 0.00 & arrived 1.00 \\
+ & distance / exp & memory & 5 & 0.0377 & 0.124 & 0.12 & arrived 0.89 \\
+ & distance / exp & memory & 10 & 0.0377 & 0.124 & 0.12 & arrived 0.89 \\
+ & distance / exp & memory & 20 & 0.0377 & 0.124 & 0.12 & arrived 0.89 \\
+ & hits / exp & all & 5 & 0.0000 & 0.000 & 0.00 & arrived 1.00 \\
+ & hits / exp & all & 10 & 0.0000 & 0.000 & 0.00 & arrived 1.00 \\
+ & hits / exp & all & 20 & 0.0000 & 0.000 & 0.00 & arrived 1.00 \\
+ & hits / exp & memory & 5 & 0.0377 & 0.124 & 0.12 & arrived 0.89 \\
+ & hits / exp & memory & 10 & 0.0377 & 0.124 & 0.12 & arrived 0.89 \\
+ & hits / exp & memory & 20 & 0.0377 & 0.124 & 0.12 & arrived 0.89 \\
+\midrule
+transit / random / Transit & distance-only A$^*$ & -- & 0 & 0.1793 & 0.496 & 1.87 & arrived 0.28 \\
+ & earlier additive model & -- & 0.55 & 0.1208 & 0.483 & 1.48 & arrived 0.85 \\
+ & distance / exp & all & 5 & 0.0710 & 0.317 & 0.94 & arrived 1.00 \\
+ & distance / exp & all & 10 & 0.0618 & 0.287 & 0.96 & arrived 1.00 \\
+ & distance / exp & all & 20 & 0.0605 & 0.281 & 0.94 & arrived 1.00 \\
+ & distance / exp & memory & 5 & 0.1793 & 0.496 & 1.87 & arrived 0.28 \\
+ & distance / exp & memory & 10 & 0.1793 & 0.496 & 1.87 & arrived 0.28 \\
+ & distance / exp & memory & 20 & 0.1793 & 0.496 & 1.87 & arrived 0.28 \\
+ & hits / exp & all & 5 & 0.0618 & 0.287 & 0.96 & arrived 1.00 \\
+ & hits / exp & all & 10 & 0.0618 & 0.287 & 0.96 & arrived 1.00 \\
+ & hits / exp & all & 20 & 0.0618 & 0.287 & 0.96 & arrived 1.00 \\
+ & hits / exp & memory & 5 & 0.1793 & 0.496 & 1.87 & arrived 0.28 \\
+ & hits / exp & memory & 10 & 0.1793 & 0.496 & 1.87 & arrived 0.28 \\
+ & hits / exp & memory & 20 & 0.1793 & 0.496 & 1.87 & arrived 0.28 \\
+\midrule
+transit / urban / Transit & distance-only A$^*$ & -- & 0 & 0.2501 & 0.611 & 1.71 & arrived 0.28 \\
+ & earlier additive model & -- & 0.55 & 0.0542 & 0.157 & 0.46 & arrived 0.65 \\
+ & distance / exp & all & 5 & 0.0709 & 0.250 & 0.60 & arrived 0.60 \\
+ & distance / exp & all & 10 & 0.0076 & 0.033 & 0.00 & arrived 1.00 \\
+ & distance / exp & all & 20 & 0.0076 & 0.033 & 0.00 & arrived 1.00 \\
+ & distance / exp & memory & 5 & 0.0709 & 0.250 & 0.60 & arrived 0.60 \\
+ & distance / exp & memory & 10 & 0.0076 & 0.033 & 0.00 & arrived 1.00 \\
+ & distance / exp & memory & 20 & 0.0076 & 0.033 & 0.00 & arrived 1.00 \\
+ & hits / exp & all & 5 & 0.0078 & 0.033 & 0.00 & arrived 1.00 \\
+ & hits / exp & all & 10 & 0.0071 & 0.033 & 0.00 & arrived 1.00 \\
+ & hits / exp & all & 20 & 0.0071 & 0.033 & 0.00 & arrived 1.00 \\
+ & hits / exp & memory & 5 & 0.0078 & 0.033 & 0.00 & arrived 1.00 \\
+ & hits / exp & memory & 10 & 0.0071 & 0.033 & 0.00 & arrived 1.00 \\
+ & hits / exp & memory & 20 & 0.0071 & 0.033 & 0.00 & arrived 1.00 \\
+\bottomrule
+\end{tabular}

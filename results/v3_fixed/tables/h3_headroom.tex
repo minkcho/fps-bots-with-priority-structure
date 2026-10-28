@@ -1,0 +1,14 @@
+\begin{tabular}{llcccc}
+\toprule
+Map & Exposure definition & $R_0$ per step & $R_{\mathrm{safe}}/R_0$ & Length ratio & $\lambda^{*}$ (median / p75) \\
+\midrule
+random & distance (earlier): LOS $1/d$, else $0.2/d$ & 0.128 & 0.727 & 1.195 & 6.85 / 16.21 \\
+random & LOS only: $1/d$ if LOS else 0 & 0.099 & 0.422 & 1.634 & 11.77 / 27.93 \\
+random & visible indicator: 1[LOS and d$\le$9] & 0.302 & 0.392 & 1.450 & 1.56 / 2.67 \\
+random & hits: 1[LOS and d$\le$7] $P_{\mathrm{hit}}(d)$ & 0.077 & 0.296 & 1.404 & 5.18 / 8.72 \\
+urban & distance (earlier): LOS $1/d$, else $0.2/d$ & 0.140 & 0.706 & 1.217 & 5.46 / 12.08 \\
+urban & LOS only: $1/d$ if LOS else 0 & 0.114 & 0.417 & 1.706 & 10.06 / 29.28 \\
+urban & visible indicator: 1[LOS and d$\le$9] & 0.320 & 0.356 & 1.593 & 1.88 / 3.33 \\
+urban & hits: 1[LOS and d$\le$7] $P_{\mathrm{hit}}(d)$ & 0.086 & 0.314 & 1.560 & 5.25 / 12.14 \\
+\bottomrule
+\end{tabular}

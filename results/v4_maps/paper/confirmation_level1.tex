@@ -1,0 +1,26 @@
+\begin{tabular}{llccccccccccc}
+\toprule
+Hyp. & Test & random 101 & random 102 & random 103 & urban 101 & urban 102 & urban 103 & blocks & walls & mixed & random & urban \\
+\midrule
+H1 & Kruskal--Wallis, Mission objective commitment & $0.72$ & $0.75$ & $0.73$ & $0.75$ & $0.72$ & $0.73$ & $0.75$ & $0.68$ & $0.72$ & $0.71$ & $0.77$ \\
+H1 & Kruskal--Wallis, Mission ally distance & $0.30$ & $0.41$ & $0.23$ & $0.30$ & $0.32$ & $0.43$ & $0.41$ & $0.44$ & $0.35$ & $0.36$ & $0.45$ \\
+H1 & Kruskal--Wallis, Deathmatch engagement redirection & $0.85$ & $0.74$ & $0.83$ & $0.87$ & $0.83$ & $0.85$ & $0.86$ & $0.81$ & $0.84$ & $0.85$ & $0.87$ \\
+H1 & Kruskal--Wallis, Deathmatch resource seeking & $0.53$ & $0.54$ & $0.58$ & $0.59$ & $0.52$ & $0.56$ & $0.53$ & $0.52$ & $0.62$ & $0.54$ & $0.58$ \\
+H1 & Kruskal--Wallis, Control score & $0.66$ & $0.68$ & $0.56$ & $0.62$ & $0.51$ & $0.59$ & $0.57$ & $0.56$ & $0.59$ & $0.58$ & $0.55$ \\
+H1 & Style classification (5-fold CV), Mission & $0.77$ & $0.80$ & $0.82$ & $0.80$ & $0.77$ & $0.74$ & $0.81$ & $0.73$ & $0.81$ & $0.80$ & $0.78$ \\
+H1 & Style classification (5-fold CV), Deathmatch & $0.96$ & $0.95$ & $0.97$ & $0.98$ & $0.96$ & $0.98$ & $0.96$ & $0.96$ & $0.98$ & $0.97$ & $0.97$ \\
+H1 & Style classification (5-fold CV), Control & $0.79$ & $0.77$ & $0.76$ & $0.84$ & $0.78$ & $0.75$ & $0.78$ & $0.71$ & $0.75$ & $0.72$ & $0.78$ \\
+H1 & Mode ablation, Deathmatch SA resource seeking (full $-$ weights-only) & $+0.97$ & $+0.98$ & $+0.99$ & $+0.99$ & $+0.99$ & $+0.99$ & $+0.98$ & $+0.98$ & $+1.00$ & $+0.98$ & $+0.98$ \\
+H1 & Mode ablation, Deathmatch Agg engagement redirection (full $-$ weights-only) & $+1.00$ & $+0.99$ & $+1.00$ & $+1.00$ & $+0.99$ & $+0.97$ & $+0.98$ & $+0.96$ & $+0.99$ & $+0.98$ & $+1.00$ \\
+H2 & Mission goal switches, $w_{\mathrm{commit}}$ 0.45 $-$ 0 & $-1.00$ & $-1.00$ & $-1.00$ & $-1.00$ & $-1.00$ & $-0.99$ & $-1.00$ & $-1.00$ & $-1.00$ & $-1.00$ & $-1.00$ \\
+H2 & Control goal switches, $w_{\mathrm{commit}}$ 0.45 $-$ 0 & $-1.00$ & $-1.00$ & $-1.00$ & $-1.00$ & $-1.00$ & $-1.00$ & $-1.00$ & $-1.00$ & $-1.00$ & $-1.00$ & $-1.00$ \\
+H3 & Deathmatch MC walked exposure, $\lambda_E$ conf.\ $-$ 0 & $-0.57$ & $-0.51$ & $-0.65$ & $-0.49$ & $-0.57$ & $-0.41$ & $-0.55$ & $-0.56$ & $-0.47$ & $-0.66$ & $-0.34$ \\
+H3 & Deathmatch PO walked exposure, $\lambda_E$ conf.\ $-$ 0 & $-0.92$ & $-0.97$ & $-0.94$ & $-0.90$ & $-0.98$ & $-0.92$ & $-0.94$ & $-0.93$ & $-0.91$ & $-0.98$ & $-0.93$ \\
+H3 & Deathmatch Agg walked exposure, $\lambda_E$ conf.\ $-$ 0 & $-0.64$ & $-0.67$ & $-0.76$ & $-0.55$ & $-0.72$ & $-0.75$ & $-0.71$ & $-0.80$ & $-0.72$ & $-0.68$ & $-0.68$ \\
+H3 & Deathmatch SA walked exposure, $\lambda_E$ conf.\ $-$ 0 & $-0.38$ & $-0.29$ & $-0.42$ & $-0.43$ & $-0.59$ & $-0.61$ & $-0.63$ & $-0.55$ & $-0.50$ & $-0.21$$^{\dagger}$ & $-0.21$$^{\dagger}$ \\
+H3 & Sign test, walked exposure lower with the term (12 conditions) & 12/12 & 12/12 & 12/12 & 10/12 & 12/12 & 12/12 & 12/12 & 12/12 & 12/12 & 12/12 & 12/12 \\
+H3b & Deathmatch MC ally distance, $\lambda_T$ 10 $-$ 0 & $-0.31$ & $-0.21$$^{\dagger}$ & $-0.33$ & $-0.61$ & $-0.39$ & $-0.35$ & $-0.30$ & $-0.45$ & $-0.55$ & $-0.24$$^{\dagger}$ & $-0.59$ \\
+H4 & Mission ally distance along $\alpha$ (MC $\to$ PO) & $+0.20$ & $+0.24$ & $+0.26$ & $+0.17$ & $+0.23$ & $+0.10$ & $+0.20$ & $+0.12$ & $+0.19$ & $+0.19$ & $+0.09$$^{\dagger}$ \\
+H4 & Deathmatch engagement redirection along $\alpha$ (Agg $\to$ SA) & $-0.64$ & $-0.66$ & $-0.63$ & $-0.65$ & $-0.64$ & $-0.62$ & $-0.60$ & $-0.64$ & $-0.65$ & $-0.67$ & $-0.66$ \\
+\bottomrule
+\end{tabular}

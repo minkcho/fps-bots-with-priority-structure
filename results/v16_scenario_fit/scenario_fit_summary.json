@@ -1,0 +1,761 @@
+{
+ "cases": {
+  "CSO-BT|Mission": {
+   "agent": "fitsc[CSO-BT:Mission]",
+   "game": "CSO-BT",
+   "scenario": "Mission",
+   "n_dims": 41,
+   "params": {
+    "w_objective": 0.7698053703371727,
+    "w_engage": 0.014407391407235622,
+    "w_resource": 0.031033396463002665,
+    "w_team": 0.18475384179258905,
+    "w_commitment": 0.0846118783148081,
+    "resource_idle_factor": 0.12359069347615098,
+    "resource_distance_scale": 19.546041723164116,
+    "hunt_unseen": 0.4250502613452751,
+    "urgent_switch_relief": 0.954082755781185
+   },
+   "combat_mode": 2,
+   "D2": {
+    "CSO-BT": 0.6544582275893325,
+    "OW-BT": 31.941908668553506
+   },
+   "nearest": "CSO-BT",
+   "own_nearest_share": 1.0,
+   "G": 0.34622325503114193,
+   "G_ci": [
+    0.31508574352777985,
+    0.3942656046817286
+   ],
+   "heldout": {
+    "random": {
+     "nearest": "CSO-BT",
+     "G": 0.20739654029956442,
+     "D2": {
+      "CSO-BT": 0.04460830455292041,
+      "OW-BT": 12.26511638501816
+     }
+    },
+    "urban": {
+     "nearest": "CSO-BT",
+     "G": 0.9048148997844896,
+     "D2": {
+      "CSO-BT": 0.6252561980567454,
+      "OW-BT": 4.384065730551446
+     }
+    },
+    "random_s101": {
+     "nearest": "CSO-BT",
+     "G": 0.5904227500567678,
+     "D2": {
+      "CSO-BT": 0.4082753077046584,
+      "OW-BT": 8.75700697663821
+     }
+    },
+    "urban_s101": {
+     "nearest": "CSO-BT",
+     "G": 0.7037833938841492,
+     "D2": {
+      "CSO-BT": 0.2921976028469642,
+      "OW-BT": 6.156905645330321
+     }
+    },
+    "blocks": {
+     "nearest": "CSO-BT",
+     "G": 0.4535922896526147,
+     "D2": {
+      "CSO-BT": 0.17641392829297248,
+      "OW-BT": 4.731753663399777
+     }
+    }
+   },
+   "heldout_own_nearest": 5,
+   "heldout_close": 2,
+   "tier": "improved",
+   "contributions": {
+    "objective_commitment_ratio": 0.0925978083571511,
+    "engagement_redirection_rate_per_100": 0.12541857302505008,
+    "avg_ally_proximity": 0.029157753248889553,
+    "kill_rate_per_100": 0.029973008323201274,
+    "death_rate_per_100": 0.03751850828823738,
+    "los_frac": 0.025782290146959194,
+    "far_pursuit_share": 0.0035340893690946314,
+    "contact_distance": 0.2892971648696459,
+    "resource_seeking_rate_per_100": 0.02099291824397229,
+    "resource_goal_share_good": 0.00018611371713106098,
+    "retreat_share": 0.0
+   }
+  },
+  "CSO-BT|Control": {
+   "agent": "fitsc[CSO-BT:Control]",
+   "game": "CSO-BT",
+   "scenario": "Control",
+   "n_dims": 41,
+   "params": {
+    "w_objective": 0.6611871346831322,
+    "w_engage": 0.20996580477879664,
+    "w_resource": 0.006550879953406631,
+    "w_team": 0.12229618058466456,
+    "w_commitment": 0.033515569288283587,
+    "resource_idle_factor": 0.39109524292871356,
+    "resource_distance_scale": 39.04884349973064,
+    "hunt_unseen": 0.2084093065932393,
+    "urgent_switch_relief": 0.5633971756324172
+   },
+   "combat_mode": 2,
+   "D2": {
+    "CSO-BT": 0.5936244478243898,
+    "OW-BT": 21.175251271167152
+   },
+   "nearest": "CSO-BT",
+   "own_nearest_share": 1.0,
+   "G": 0.36716946368914594,
+   "G_ci": [
+    0.3348567728545685,
+    0.42751034209884636
+   ],
+   "heldout": {
+    "random": {
+     "nearest": "CSO-BT",
+     "G": 0.33597461958297986,
+     "D2": {
+      "CSO-BT": 0.12571509239974035,
+      "OW-BT": 16.30161489592948
+     }
+    },
+    "urban": {
+     "nearest": "CSO-BT",
+     "G": 0.6866780320985414,
+     "D2": {
+      "CSO-BT": 0.23285739664308977,
+      "OW-BT": 12.790424512496086
+     }
+    },
+    "random_s101": {
+     "nearest": "CSO-BT",
+     "G": 0.26285699136025764,
+     "D2": {
+      "CSO-BT": 0.09147936753119636,
+      "OW-BT": 14.941298111361226
+     }
+    },
+    "urban_s101": {
+     "nearest": "CSO-BT",
+     "G": 0.49807033464374956,
+     "D2": {
+      "CSO-BT": 0.1278766500285907,
+      "OW-BT": 5.302878434722595
+     }
+    },
+    "blocks": {
+     "nearest": "CSO-BT",
+     "G": 0.5464708040471291,
+     "D2": {
+      "CSO-BT": 0.28135870224586523,
+      "OW-BT": 24.777458672686006
+     }
+    }
+   },
+   "heldout_own_nearest": 5,
+   "heldout_close": 3,
+   "tier": "improved",
+   "contributions": {
+    "objective_commitment_ratio": 0.20835143148631036,
+    "engagement_redirection_rate_per_100": 0.12738749511879816,
+    "avg_ally_proximity": 0.02464230049719184,
+    "kill_rate_per_100": 0.02333191327006351,
+    "death_rate_per_100": 0.025581820284261182,
+    "los_frac": 0.03190629922805153,
+    "far_pursuit_share": 3.3131962034618436e-05,
+    "contact_distance": 0.1523900559776786,
+    "resource_seeking_rate_per_100": 0.0,
+    "resource_goal_share_good": 0.0,
+    "retreat_share": 0.0
+   }
+  },
+  "OW-BT|Mission": {
+   "agent": "fitsc[OW-BT:Mission]",
+   "game": "OW-BT",
+   "scenario": "Mission",
+   "n_dims": 41,
+   "params": {
+    "w_objective": 0.2901964373886585,
+    "w_engage": 0.03811067702120406,
+    "w_resource": 0.6173084777572443,
+    "w_team": 0.05438440783289309,
+    "w_commitment": 0.025103699415922165,
+    "resource_idle_factor": 0.025338428560644388,
+    "resource_distance_scale": 85.68151646076754,
+    "hunt_unseen": 0.052287230268120766,
+    "urgent_switch_relief": 0.35256228130310774
+   },
+   "combat_mode": 1,
+   "D2": {
+    "CSO-BT": 39.22436058452191,
+    "OW-BT": 1.3096121419306042
+   },
+   "nearest": "OW-BT",
+   "own_nearest_share": 1.0,
+   "G": 0.3249413412503365,
+   "G_ci": [
+    0.293432488795623,
+    0.369724950511307
+   ],
+   "heldout": {
+    "random": {
+     "nearest": "OW-BT",
+     "G": 0.2200409621458206,
+     "D2": {
+      "CSO-BT": 15.54881265732778,
+      "OW-BT": 0.2373979206737723
+     }
+    },
+    "urban": {
+     "nearest": "OW-BT",
+     "G": 0.42996670672540294,
+     "D2": {
+      "CSO-BT": 5.330658535338121,
+      "OW-BT": 0.5272779958397389
+     }
+    },
+    "random_s101": {
+     "nearest": "OW-BT",
+     "G": 0.4922610323887387,
+     "D2": {
+      "CSO-BT": 11.489471897404606,
+      "OW-BT": 0.9667025344198705
+     }
+    },
+    "urban_s101": {
+     "nearest": "OW-BT",
+     "G": 0.5908277041264473,
+     "D2": {
+      "CSO-BT": 8.304054487721041,
+      "OW-BT": 0.7708843878841002
+     }
+    },
+    "blocks": {
+     "nearest": "OW-BT",
+     "G": 0.3897181432901261,
+     "D2": {
+      "CSO-BT": 6.723015140002806,
+      "OW-BT": 0.5235457510338077
+     }
+    }
+   },
+   "heldout_own_nearest": 5,
+   "heldout_close": 4,
+   "tier": "close",
+   "contributions": {
+    "objective_commitment_ratio": 0.3564290741648223,
+    "engagement_redirection_rate_per_100": 0.0,
+    "avg_ally_proximity": 0.026777555861009234,
+    "kill_rate_per_100": -0.0015137527440101807,
+    "death_rate_per_100": 0.0028189450392945258,
+    "los_frac": -0.001728445509479913,
+    "far_pursuit_share": 0.0,
+    "contact_distance": 0.007884160341853675,
+    "resource_seeking_rate_per_100": 0.015398488343339614,
+    "resource_goal_share_good": 0.04145368047067754,
+    "retreat_share": 0.8620924359630975
+   }
+  },
+  "OW-BT|Control": {
+   "agent": "fitsc[OW-BT:Control]",
+   "game": "OW-BT",
+   "scenario": "Control",
+   "n_dims": 41,
+   "params": {
+    "w_objective": 0.2901964373886585,
+    "w_engage": 0.03811067702120406,
+    "w_resource": 0.6173084777572443,
+    "w_team": 0.05438440783289309,
+    "w_commitment": 0.025103699415922165,
+    "resource_idle_factor": 0.025338428560644388,
+    "resource_distance_scale": 85.68151646076754,
+    "hunt_unseen": 0.052287230268120766,
+    "urgent_switch_relief": 0.35256228130310774
+   },
+   "combat_mode": 1,
+   "D2": {
+    "CSO-BT": 25.418931457119513,
+    "OW-BT": 0.57189756962881
+   },
+   "nearest": "OW-BT",
+   "own_nearest_share": 1.0,
+   "G": 0.2386161258303301,
+   "G_ci": [
+    0.20817469531271485,
+    0.28495919515493184
+   ],
+   "heldout": {
+    "random": {
+     "nearest": "OW-BT",
+     "G": 0.16581353217901854,
+     "D2": {
+      "CSO-BT": 16.97717871881284,
+      "OW-BT": 0.15261601137124597
+     }
+    },
+    "urban": {
+     "nearest": "OW-BT",
+     "G": 0.3817179048554345,
+     "D2": {
+      "CSO-BT": 13.355351196133034,
+      "OW-BT": 0.5036985999128947
+     }
+    },
+    "random_s101": {
+     "nearest": "OW-BT",
+     "G": 0.39027361805245986,
+     "D2": {
+      "CSO-BT": 16.06921622313856,
+      "OW-BT": 0.7926325924262752
+     }
+    },
+    "urban_s101": {
+     "nearest": "OW-BT",
+     "G": 0.6877606536584077,
+     "D2": {
+      "CSO-BT": 7.109621094208257,
+      "OW-BT": 1.2627386160549179
+     }
+    },
+    "blocks": {
+     "nearest": "OW-BT",
+     "G": 0.22660350744948,
+     "D2": {
+      "CSO-BT": 25.084757473468514,
+      "OW-BT": 0.27581475387624854
+     }
+    }
+   },
+   "heldout_own_nearest": 5,
+   "heldout_close": 4,
+   "tier": "close",
+   "contributions": {
+    "objective_commitment_ratio": 0.2754448830259201,
+    "engagement_redirection_rate_per_100": 0.0,
+    "avg_ally_proximity": 0.02914921591525048,
+    "kill_rate_per_100": -9.771189602978863e-06,
+    "death_rate_per_100": 0.005516160368090673,
+    "los_frac": -0.0022613161177878634,
+    "far_pursuit_share": 0.0,
+    "contact_distance": 0.003344639980988207,
+    "resource_seeking_rate_per_100": 0.023938901350714525,
+    "resource_goal_share_good": 0.0644301366960883,
+    "retreat_share": 0.17234471959914865
+   }
+  },
+  "AC-BT|Deathmatch": {
+   "agent": "fitsc[AC-BT:Deathmatch]",
+   "game": "AC-BT",
+   "scenario": "Deathmatch",
+   "n_dims": 37,
+   "params": {
+    "w_objective": 0.0783368544653058,
+    "w_engage": 0.39435403304625655,
+    "w_resource": 0.37546172837308817,
+    "w_team": 0.15184738411534945,
+    "w_commitment": 0.30901916697621346,
+    "resource_idle_factor": 0.009873603470623493,
+    "resource_distance_scale": 41.579607334883626,
+    "hunt_unseen": 0.20328111667186022,
+    "urgent_switch_relief": 0.7992918407544494
+   },
+   "combat_mode": 2,
+   "D2": {
+    "AC-BT": 5.632702940932861,
+    "XO-BT": 8.943417692681463
+   },
+   "nearest": "AC-BT",
+   "own_nearest_share": 1.0,
+   "G": 0.9367668172365483,
+   "G_ci": [
+    0.9139211589162238,
+    0.9604026105378316
+   ],
+   "heldout": {
+    "random": {
+     "nearest": "AC-BT",
+     "G": 1.0342911325094675,
+     "D2": {
+      "AC-BT": 1.834223517501703,
+      "XO-BT": 9.908734536213728
+     }
+    },
+    "urban": {
+     "nearest": "AC-BT",
+     "G": 0.8887702798235798,
+     "D2": {
+      "AC-BT": 1.861800239913384,
+      "XO-BT": 7.774546864396916
+     }
+    },
+    "random_s101": {
+     "nearest": "AC-BT",
+     "G": 0.9331656714358272,
+     "D2": {
+      "AC-BT": 1.9665900995109102,
+      "XO-BT": 11.381594819461641
+     }
+    },
+    "urban_s101": {
+     "nearest": "AC-BT",
+     "G": 0.857486194411652,
+     "D2": {
+      "AC-BT": 1.970931725789751,
+      "XO-BT": 9.17662078784527
+     }
+    },
+    "blocks": {
+     "nearest": "AC-BT",
+     "G": 0.784925685170388,
+     "D2": {
+      "AC-BT": 2.4239429844680878,
+      "XO-BT": 8.455286798696601
+     }
+    }
+   },
+   "heldout_own_nearest": 5,
+   "heldout_close": 0,
+   "tier": "improved",
+   "contributions": {
+    "engagement_redirection_rate_per_100": 0.18276153470547796,
+    "avg_ally_proximity": 1.1374079527380605,
+    "kill_rate_per_100": 0.06006364695318231,
+    "death_rate_per_100": 0.050206291931919764,
+    "los_frac": 0.06177622871348405,
+    "far_pursuit_share": 3.438623166832734,
+    "contact_distance": 0.005548873640296266,
+    "resource_seeking_rate_per_100": 0.003170256815009848,
+    "resource_goal_share_good": 0.6931449886026952,
+    "retreat_share": 0.0
+   }
+  },
+  "XO-BT|Deathmatch": {
+   "agent": "fitsc[XO-BT:Deathmatch]",
+   "game": "XO-BT",
+   "scenario": "Deathmatch",
+   "n_dims": 37,
+   "params": {
+    "w_objective": 0.5217433917718171,
+    "w_engage": 0.44562020315799394,
+    "w_resource": 0.03227360595424298,
+    "w_team": 0.0003627991159460416,
+    "w_commitment": 0.021637606900185347,
+    "resource_idle_factor": 0.14998352647109506,
+    "resource_distance_scale": 43.59835395738892,
+    "hunt_unseen": 0.9184394891737301,
+    "urgent_switch_relief": 0.5715093590638606
+   },
+   "combat_mode": 2,
+   "D2": {
+    "AC-BT": 17.753756628245966,
+    "XO-BT": 1.8577153721778374
+   },
+   "nearest": "XO-BT",
+   "own_nearest_share": 1.0,
+   "G": 0.2752992356322739,
+   "G_ci": [
+    0.25990868025863845,
+    0.30160957409519834
+   ],
+   "heldout": {
+    "random": {
+     "nearest": "XO-BT",
+     "G": 0.2665080534711924,
+     "D2": {
+      "AC-BT": 15.73716902412512,
+      "XO-BT": 1.1997079006034768
+     }
+    },
+    "urban": {
+     "nearest": "XO-BT",
+     "G": 0.29519312244431883,
+     "D2": {
+      "AC-BT": 11.786604680103425,
+      "XO-BT": 1.1627084033637063
+     }
+    },
+    "random_s101": {
+     "nearest": "XO-BT",
+     "G": 0.27419746622653524,
+     "D2": {
+      "AC-BT": 15.691642533484085,
+      "XO-BT": 1.2429699907973097
+     }
+    },
+    "urban_s101": {
+     "nearest": "XO-BT",
+     "G": 0.2668468723568197,
+     "D2": {
+      "AC-BT": 13.619054955582687,
+      "XO-BT": 1.060779724548767
+     }
+    },
+    "blocks": {
+     "nearest": "XO-BT",
+     "G": 0.3078377217186891,
+     "D2": {
+      "AC-BT": 15.590372146539764,
+      "XO-BT": 1.4382629091176022
+     }
+    }
+   },
+   "heldout_own_nearest": 5,
+   "heldout_close": 5,
+   "tier": "close",
+   "contributions": {
+    "engagement_redirection_rate_per_100": 0.01940323327316476,
+    "avg_ally_proximity": 0.19412018802685918,
+    "kill_rate_per_100": 0.007057412298903332,
+    "death_rate_per_100": 0.20317631454833895,
+    "los_frac": 0.044150684637601315,
+    "far_pursuit_share": 0.16914524544929987,
+    "contact_distance": 0.007384645518108867,
+    "resource_seeking_rate_per_100": 0.15859513739990425,
+    "resource_goal_share_good": 0.058488606276666855,
+    "retreat_share": 0.9961939047489902
+   }
+  }
+ },
+ "search": {
+  "CSO-BT|Mission": {
+   "selection_J": {
+    "0": 4.351613334169279,
+    "1": 7.714540975839155,
+    "2": 0.7573674834329809,
+    "3": 42.69358794762806
+   },
+   "ranking": [
+    2,
+    0,
+    1,
+    3
+   ],
+   "searched_modes": [
+    2,
+    0
+   ],
+   "fitted_mode": 2,
+   "fitted_mode_first_ranked": true,
+   "validation_J": 0.571829201693917,
+   "train_J": 0.46541006193258677,
+   "best_validation_J_by_mode": {
+    "2": 0.571829201693917,
+    "0": 3.5469391455207986
+   }
+  },
+  "CSO-BT|Control": {
+   "selection_J": {
+    "0": 2.473779633227741,
+    "1": 3.849258861976554,
+    "2": 0.35296141205793374,
+    "3": 27.113153798272712
+   },
+   "ranking": [
+    2,
+    0,
+    1,
+    3
+   ],
+   "searched_modes": [
+    2,
+    0
+   ],
+   "fitted_mode": 2,
+   "fitted_mode_first_ranked": true,
+   "validation_J": 0.4450822428331936,
+   "train_J": 0.30313501165764545,
+   "best_validation_J_by_mode": {
+    "2": 0.4450822428331936,
+    "0": 1.961427352222868
+   }
+  },
+  "OW-BT|Mission": {
+   "selection_J": {
+    "0": 1.7788515824499116,
+    "1": 1.04455127516223,
+    "2": 22.610399400160734,
+    "3": 33.25656100060096
+   },
+   "ranking": [
+    1,
+    0,
+    2,
+    3
+   ],
+   "searched_modes": [
+    1,
+    0
+   ],
+   "fitted_mode": 1,
+   "fitted_mode_first_ranked": true,
+   "validation_J": 0.8559595425879132,
+   "train_J": 1.4248876485482487,
+   "best_validation_J_by_mode": {
+    "1": 0.8559595425879132,
+    "0": 1.7083915879905094
+   }
+  },
+  "OW-BT|Control": {
+   "selection_J": {
+    "0": 0.7017559133264961,
+    "1": 0.5090414114335102,
+    "2": 16.096514692001808,
+    "3": 17.99123783893113
+   },
+   "ranking": [
+    1,
+    0,
+    2,
+    3
+   ],
+   "searched_modes": [
+    1,
+    0
+   ],
+   "fitted_mode": 1,
+   "fitted_mode_first_ranked": true,
+   "validation_J": 0.5346024597454033,
+   "train_J": 0.22361074791343366,
+   "best_validation_J_by_mode": {
+    "1": 0.5346024597454033,
+    "0": 0.6490697123451726
+   }
+  },
+  "AC-BT|Deathmatch": {
+   "selection_J": {
+    "0": 7.511494375376853,
+    "1": 7.322495992858704,
+    "2": 6.294820272338597,
+    "3": 14.471784409307604
+   },
+   "ranking": [
+    2,
+    1,
+    0,
+    3
+   ],
+   "searched_modes": [
+    2,
+    1
+   ],
+   "fitted_mode": 2,
+   "fitted_mode_first_ranked": true,
+   "validation_J": 5.297933645457742,
+   "train_J": 5.6385816355850835,
+   "best_validation_J_by_mode": {
+    "2": 5.297933645457742,
+    "1": 6.824621195535944
+   }
+  },
+  "XO-BT|Deathmatch": {
+   "selection_J": {
+    "0": 1.3206869506719277,
+    "1": 2.348033436452483,
+    "2": 1.5398912516674794,
+    "3": 20.46791925898243
+   },
+   "ranking": [
+    0,
+    2,
+    1,
+    3
+   ],
+   "searched_modes": [
+    0,
+    2
+   ],
+   "fitted_mode": 2,
+   "fitted_mode_first_ranked": false,
+   "validation_J": 1.3729593213021078,
+   "train_J": 1.2199382552388722,
+   "best_validation_J_by_mode": {
+    "0": 1.4180170594293569,
+    "2": 1.3729593213021078
+   }
+  }
+ },
+ "behaviour": {
+  "CSO-BT|Mission": {
+   "retreat_share": 0.0,
+   "far_pursuit_share": 0.0,
+   "resource_goal_share_good": 0.0,
+   "contact_distance": 3.2797076749999996
+  },
+  "CSO-BT|Control": {
+   "retreat_share": 0.0,
+   "far_pursuit_share": 0.0,
+   "resource_goal_share_good": 0.0,
+   "contact_distance": 3.250650855
+  },
+  "OW-BT|Mission": {
+   "retreat_share": 0.5254552499999999,
+   "far_pursuit_share": 0.0,
+   "resource_goal_share_good": 0.0,
+   "contact_distance": 3.1389989749999994
+  },
+  "OW-BT|Control": {
+   "retreat_share": 0.640544904522613,
+   "far_pursuit_share": 0.0,
+   "resource_goal_share_good": 0.0,
+   "contact_distance": 3.2083479
+  },
+  "AC-BT|Deathmatch": {
+   "retreat_share": 0.0,
+   "far_pursuit_share": 0.013573285000000001,
+   "resource_goal_share_good": 0.13840401999999996,
+   "contact_distance": 3.0283843999999998
+  },
+  "XO-BT|Deathmatch": {
+   "retreat_share": 0.305412325,
+   "far_pursuit_share": 0.561442515,
+   "resource_goal_share_good": 0.17666074,
+   "contact_distance": 3.1384872099999996
+  },
+  "fitsc[CSO-BT:Mission]|Mission": {
+   "retreat_share": 0.0,
+   "far_pursuit_share": 0.00473893,
+   "resource_goal_share_good": 0.00136937,
+   "contact_distance": 2.752390545
+  },
+  "fitsc[CSO-BT:Control]|Control": {
+   "retreat_share": 0.0,
+   "far_pursuit_share": 0.000730485,
+   "resource_goal_share_good": 0.0,
+   "contact_distance": 2.861233035
+  },
+  "fitsc[OW-BT:Mission]|Mission": {
+   "retreat_share": 0.75,
+   "far_pursuit_share": 0.0,
+   "resource_goal_share_good": 0.021693905,
+   "contact_distance": 3.0301598050000003
+  },
+  "fitsc[OW-BT:Control]|Control": {
+   "retreat_share": 0.75,
+   "far_pursuit_share": 0.0,
+   "resource_goal_share_good": 0.024088889999999998,
+   "contact_distance": 3.06452104
+  },
+  "fitsc[AC-BT:Deathmatch]|Deathmatch": {
+   "retreat_share": 0.0,
+   "far_pursuit_share": 0.229590615,
+   "resource_goal_share_good": 0.291288745,
+   "contact_distance": 3.103572105
+  },
+  "fitsc[XO-BT:Deathmatch]|Deathmatch": {
+   "retreat_share": 0.0,
+   "far_pursuit_share": 0.5448590799999999,
+   "resource_goal_share_good": 0.16713157000000003,
+   "contact_distance": 3.0109594849999994
+  }
+ },
+ "predictions": {
+  "P1: every case fit identifies its own tree (own tree nearest in >= 95% of resamples and on >= 4 of 5 held-out maps)": true,
+  "H-I1: case fits at least 'improved' in >= 4 of the 6 cases": true,
+  "H-I2: case fits 'close' in >= 3 of the 6 cases": true
+ }
+}

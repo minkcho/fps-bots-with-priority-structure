@@ -1,0 +1,35 @@
+\begin{tabular}{llllcccc}
+\toprule
+Scenario / map / style & Field & Knowledge & $\lambda_E$ & Walked hits per step & LOS fraction & Deaths & Outcome \\
+\midrule
+deathmatch / random / SA & distance-only A$^*$ & -- & 0 & 0.0333 & 0.093 & 4.93 & kills 4.93 \\
+ & earlier additive model & -- & 0.55 & 0.0330 & 0.092 & 5.03 & kills 4.77 \\
+ & distance / exp & all & 5 & 0.0323 & 0.091 & 4.86 & kills 4.55 \\
+ & distance / exp & all & 10 & 0.0310 & 0.088 & 4.54 & kills 4.86 \\
+ & distance / exp & all & 20 & 0.0304 & 0.087 & 4.74 & kills 4.57 \\
+ & distance / exp & memory & 5 & 0.0342 & 0.097 & 4.85 & kills 5.11 \\
+ & distance / exp & memory & 10 & 0.0319 & 0.090 & 4.79 & kills 4.60 \\
+ & distance / exp & memory & 20 & 0.0318 & 0.091 & 4.73 & kills 4.77 \\
+ & hits / exp & all & 5 & 0.0324 & 0.093 & 4.62 & kills 4.79 \\
+ & hits / exp & all & 10 & 0.0322 & 0.092 & 5.01 & kills 4.86 \\
+ & hits / exp & all & 20 & 0.0311 & 0.090 & 4.65 & kills 4.86 \\
+ & hits / exp & memory & 5 & 0.0319 & 0.089 & 4.73 & kills 4.76 \\
+ & hits / exp & memory & 10 & 0.0324 & 0.090 & 4.77 & kills 4.65 \\
+ & hits / exp & memory & 20 & 0.0342 & 0.096 & 5.18 & kills 4.92 \\
+\midrule
+deathmatch / urban / SA & distance-only A$^*$ & -- & 0 & 0.0367 & 0.103 & 5.40 & kills 5.46 \\
+ & earlier additive model & -- & 0.55 & 0.0347 & 0.099 & 5.20 & kills 5.12 \\
+ & distance / exp & all & 5 & 0.0327 & 0.094 & 4.60 & kills 4.85 \\
+ & distance / exp & all & 10 & 0.0281 & 0.082 & 4.22 & kills 4.21 \\
+ & distance / exp & all & 20 & 0.0272 & 0.079 & 4.02 & kills 3.83 \\
+ & distance / exp & memory & 5 & 0.0354 & 0.102 & 5.14 & kills 5.51 \\
+ & distance / exp & memory & 10 & 0.0349 & 0.100 & 5.02 & kills 5.06 \\
+ & distance / exp & memory & 20 & 0.0364 & 0.104 & 5.52 & kills 5.12 \\
+ & hits / exp & all & 5 & 0.0337 & 0.098 & 4.92 & kills 5.11 \\
+ & hits / exp & all & 10 & 0.0325 & 0.096 & 4.89 & kills 4.93 \\
+ & hits / exp & all & 20 & 0.0321 & 0.096 & 4.72 & kills 4.70 \\
+ & hits / exp & memory & 5 & 0.0365 & 0.104 & 5.29 & kills 5.45 \\
+ & hits / exp & memory & 10 & 0.0357 & 0.100 & 5.08 & kills 5.51 \\
+ & hits / exp & memory & 20 & 0.0366 & 0.105 & 5.33 & kills 5.42 \\
+\bottomrule
+\end{tabular}

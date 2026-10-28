@@ -1,0 +1,517 @@
+{
+ "maps": [
+  "random",
+  "urban"
+ ],
+ "tests": [
+  {
+   "hypothesis": "H1",
+   "test": "Kruskal-Wallis, Mission ObjCommit",
+   "p_level2": 2.121227734834449e-61,
+   "p_holm": 4.030332696185453e-60,
+   "effect": "eps2 median 0.74 (min 0.71)",
+   "maps_in_direction": 2,
+   "meets_sesoi": true,
+   "verdict": "confirmed"
+  },
+  {
+   "hypothesis": "H1",
+   "test": "Kruskal-Wallis, Mission AllyDist",
+   "p_level2": 2.8619651979089287e-31,
+   "p_holm": 4.579144316654286e-30,
+   "effect": "eps2 median 0.40 (min 0.36)",
+   "maps_in_direction": 2,
+   "meets_sesoi": true,
+   "verdict": "confirmed"
+  },
+  {
+   "hypothesis": "H1",
+   "test": "Kruskal-Wallis, Deathmatch EngRedirect",
+   "p_level2": 1.749253708399097e-73,
+   "p_holm": 3.498507416798194e-72,
+   "effect": "eps2 median 0.86 (min 0.85)",
+   "maps_in_direction": 2,
+   "meets_sesoi": true,
+   "verdict": "confirmed"
+  },
+  {
+   "hypothesis": "H1",
+   "test": "Kruskal-Wallis, Deathmatch ResSeek",
+   "p_level2": 1.785502866861679e-46,
+   "p_holm": 3.0353548736648546e-45,
+   "effect": "eps2 median 0.56 (min 0.54)",
+   "maps_in_direction": 2,
+   "meets_sesoi": true,
+   "verdict": "confirmed"
+  },
+  {
+   "hypothesis": "H1",
+   "test": "Kruskal-Wallis, Control CtrlScore",
+   "p_level2": 9.554547666274585e-48,
+   "p_holm": 1.7198185799294253e-46,
+   "effect": "eps2 median 0.57 (min 0.55)",
+   "maps_in_direction": 2,
+   "meets_sesoi": true,
+   "verdict": "confirmed"
+  },
+  {
+   "hypothesis": "H1",
+   "test": "Style classification, Mission",
+   "p_level2": 0.0001999600079984003,
+   "p_holm": 0.0021995600879824036,
+   "effect": "accuracy median 0.79 (min 0.78)",
+   "maps_in_direction": 2,
+   "meets_sesoi": true,
+   "verdict": "confirmed"
+  },
+  {
+   "hypothesis": "H1",
+   "test": "Style classification, Deathmatch",
+   "p_level2": 0.0001999600079984003,
+   "p_holm": 0.0021995600879824036,
+   "effect": "accuracy median 0.97 (min 0.97)",
+   "maps_in_direction": 2,
+   "meets_sesoi": true,
+   "verdict": "confirmed"
+  },
+  {
+   "hypothesis": "H1",
+   "test": "Style classification, Control",
+   "p_level2": 0.0001999600079984003,
+   "p_holm": 0.0021995600879824036,
+   "effect": "accuracy median 0.75 (min 0.72)",
+   "maps_in_direction": 2,
+   "meets_sesoi": true,
+   "verdict": "confirmed"
+  },
+  {
+   "hypothesis": "H1",
+   "test": "Mode ablation, Deathmatch Survival-Aware (full > weights-only)",
+   "p_level2": 2.8462309553714024e-17,
+   "p_holm": 3.415477146445683e-16,
+   "effect": "r median +0.98",
+   "maps_in_direction": 2,
+   "meets_sesoi": true,
+   "verdict": "confirmed"
+  },
+  {
+   "hypothesis": "H1",
+   "test": "Mode ablation, Deathmatch Aggressive (full > weights-only)",
+   "p_level2": 6.664486244831219e-18,
+   "p_holm": 8.663832118280585e-17,
+   "effect": "r median +0.99",
+   "maps_in_direction": 2,
+   "meets_sesoi": true,
+   "verdict": "confirmed"
+  },
+  {
+   "hypothesis": "H2",
+   "test": "Mission goal switches, w_commit 0.45 < 0",
+   "p_level2": 1.948060120977004e-18,
+   "p_holm": 2.9220901814655057e-17,
+   "effect": "r median -1.00",
+   "maps_in_direction": 2,
+   "meets_sesoi": true,
+   "verdict": "confirmed"
+  },
+  {
+   "hypothesis": "H2",
+   "test": "Control goal switches, w_commit 0.45 < 0",
+   "p_level2": 1.9482799225479546e-18,
+   "p_holm": 2.9220901814655057e-17,
+   "effect": "r median -1.00",
+   "maps_in_direction": 2,
+   "meets_sesoi": true,
+   "verdict": "confirmed"
+  },
+  {
+   "hypothesis": "H3",
+   "test": "Deathmatch Mission\u2013Cooperation walked expected hits lower (lambda_E configured vs 0)",
+   "p_level2": 0.09570069317244956,
+   "p_holm": 0.2871020795173487,
+   "effect": "pooled r -0.51 [-2.50, +1.49], PI [-3.74, +2.73]; mean change -13%",
+   "maps_in_direction": 2,
+   "meets_sesoi": true,
+   "verdict": "not confirmed"
+  },
+  {
+   "hypothesis": "H3",
+   "test": "Deathmatch Persistent Objective walked expected hits lower (lambda_E configured vs 0)",
+   "p_level2": 0.008126412680482956,
+   "p_holm": 0.032505650721931824,
+   "effect": "pooled r -0.96 [-1.28, -0.65], PI [-1.44, -0.49]; mean change -28%",
+   "maps_in_direction": 2,
+   "meets_sesoi": true,
+   "verdict": "confirmed"
+  },
+  {
+   "hypothesis": "H3",
+   "test": "Deathmatch Aggressive walked expected hits lower (lambda_E configured vs 0)",
+   "p_level2": 0.001482727877654902,
+   "p_holm": 0.011861823021239216,
+   "effect": "pooled r -0.68 [-0.72, -0.64], PI [-0.73, -0.63]; mean change -14%",
+   "maps_in_direction": 2,
+   "meets_sesoi": true,
+   "verdict": "confirmed"
+  },
+  {
+   "hypothesis": "H3",
+   "test": "Deathmatch Survival-Aware walked expected hits lower (lambda_E configured vs 0)",
+   "p_level2": 0.0032630482908631788,
+   "p_holm": 0.019578289745179073,
+   "effect": "pooled r -0.21 [-0.24, -0.18], PI [-0.25, -0.17]; mean change -12%",
+   "maps_in_direction": 2,
+   "meets_sesoi": true,
+   "verdict": "confirmed"
+  },
+  {
+   "hypothesis": "H3",
+   "test": "Sign test: share of the 12 conditions with lower walked expected hits > 0.5",
+   "p_level2": 0.0,
+   "p_holm": 0.0,
+   "effect": "mean share 1.00 (min 1.00)",
+   "maps_in_direction": 2,
+   "meets_sesoi": true,
+   "verdict": "confirmed"
+  },
+  {
+   "hypothesis": "H3",
+   "test": "Hits taken, Deathmatch, four styles pooled (lambda_E configured vs 0)",
+   "p_level2": 0.00249003958587213,
+   "p_holm": 0.01743027710110491,
+   "effect": "pooled r -0.44 [-0.48, -0.40]; mean change -14%",
+   "maps_in_direction": 2,
+   "meets_sesoi": true,
+   "verdict": "confirmed"
+  },
+  {
+   "hypothesis": "H3b",
+   "test": "Deathmatch Mission\u2013Cooperation ally distance, lambda_T 10 < 0",
+   "p_level2": 0.1256924226409109,
+   "p_holm": 0.2871020795173487,
+   "effect": "pooled r -0.43 [-2.68, +1.83]; mean difference -0.26 cells",
+   "maps_in_direction": 2,
+   "meets_sesoi": true,
+   "verdict": "not confirmed"
+  },
+  {
+   "hypothesis": "H4",
+   "test": "Deathmatch engagement redirection decreases along alpha (Aggressive -> Survival-Aware)",
+   "p_level2": 0.003469058862486387,
+   "p_holm": 0.019578289745179073,
+   "effect": "pooled rho -0.67 [-0.72, -0.60]",
+   "maps_in_direction": 2,
+   "meets_sesoi": true,
+   "verdict": "confirmed"
+  },
+  {
+   "hypothesis": "H4",
+   "test": "Mission ally distance increases along alpha (Mission\u2013Cooperation -> Persistent Objective)",
+   "p_level2": 0.11708754355387038,
+   "p_holm": 0.2871020795173487,
+   "effect": "pooled rho +0.14 [-0.50, +0.68]; mean change over alpha 0 -> 1 +0.93 cells",
+   "maps_in_direction": 2,
+   "meets_sesoi": true,
+   "verdict": "not confirmed"
+  }
+ ],
+ "hypotheses": {
+  "H1": "confirmed",
+  "H2": "confirmed",
+  "H3": "partly confirmed",
+  "H3b": "not confirmed",
+  "H4": "partly confirmed"
+ },
+ "meta": {
+  "h3|Mission\u2013Cooperation": {
+   "mu": -0.5064153429384837,
+   "se": 0.15701480366822396,
+   "tau2": 0.04020521501920028,
+   "p": 0.09570069317244956,
+   "ci": [
+    -2.5014775849976267,
+    1.4886468991206592
+   ],
+   "pi": [
+    -3.7423557599042008,
+    2.729525074027234
+   ],
+   "k": 2
+  },
+  "h3|Persistent Objective": {
+   "mu": -0.9639697809864255,
+   "se": 0.024615379393876036,
+   "tau2": 0.0007994767579060786,
+   "p": 0.008126412680482956,
+   "ci": [
+    -1.2767378312299662,
+    -0.6512017307428848
+   ],
+   "pi": [
+    -1.4403073588614688,
+    -0.48763220311138217
+   ],
+   "k": 2
+  },
+  "h3|Aggressive": {
+   "mu": -0.6786286572906941,
+   "se": 0.003161161340548539,
+   "tau2": 3.5813726200995682e-06,
+   "p": 0.001482727877654902,
+   "ci": [
+    -0.718795020488598,
+    -0.6384622940927902
+   ],
+   "pi": [
+    -0.7254425535794966,
+    -0.6318147610018916
+   ],
+   "k": 2
+  },
+  "h3|Survival-Aware": {
+   "mu": -0.21247729471962887,
+   "se": 0.0021782168597553925,
+   "tau2": 5.223132136214044e-06,
+   "p": 0.0032630482908631788,
+   "ci": [
+    -0.24015416410002907,
+    -0.18480042533922866
+   ],
+   "pi": [
+    -0.2525930204297972,
+    -0.17236156900946054
+   ],
+   "k": 2
+  },
+  "hits": {
+   "mu": -0.4410580846274986,
+   "se": 0.00345033107965576,
+   "tau2": 4.868150665207562e-06,
+   "p": 0.00249003958587213,
+   "ci": [
+    -0.4848986977340795,
+    -0.39721747152091774
+   ],
+   "pi": [
+    -0.4930960591057719,
+    -0.38902011014922533
+   ],
+   "k": 2
+  },
+  "h3b": {
+   "mu": -0.42530222369342174,
+   "se": 0.17725082559245278,
+   "tau2": 0.052527557090222984,
+   "p": 0.1256924226409109,
+   "ci": [
+    -2.6774875033727445,
+    1.8268830559859008
+   ],
+   "pi": [
+    -4.10671344744578,
+    3.2561090000589363
+   ],
+   "k": 2
+  },
+  "h4_eng": {
+   "mu": -0.8022282827559332,
+   "se": 0.008743326683440125,
+   "tau2": 4.361318266987814e-06,
+   "p": 0.003469058862486387,
+   "ci": [
+    -0.9133227816732332,
+    -0.6911337838386331
+   ],
+   "pi": [
+    -0.9164478617516749,
+    -0.6880087037601914
+   ],
+   "k": 2
+  },
+  "h4_coh": {
+   "mu": 0.13971934968893288,
+   "se": 0.05384530311482169,
+   "tau2": 0.003550760017472183,
+   "p": 0.11708754355387038,
+   "ci": [
+    -0.5444500957832363,
+    0.823888795161102
+   ],
+   "pi": [
+    -0.8807460592783132,
+    1.1601847586561789
+   ],
+   "k": 2
+  }
+ },
+ "per_map": {
+  "random": {
+   "mode|Survival-Aware": {
+    "r": 0.9789606564275195,
+    "p_two": 5.692461910742805e-17,
+    "se": NaN,
+    "diff": 0.48404579,
+    "rel": 5.559931366613267
+   },
+   "mode|Aggressive": {
+    "r": 0.9837623762376237,
+    "p_two": 1.3328972489662438e-17,
+    "se": NaN,
+    "diff": 1.28789054,
+    "rel": 0.883545216405165
+   },
+   "h2|Mission": {
+    "r": -1.0,
+    "p_two": 3.896120241954008e-18,
+    "se": NaN,
+    "diff": -23.710410359999997,
+    "rel": -0.9545064288599006
+   },
+   "h2|Control": {
+    "r": -1.0,
+    "p_two": 3.896340037647931e-18,
+    "se": NaN,
+    "diff": -25.297515899999997,
+    "rel": -0.9555291141192431
+   },
+   "h3|Mission\u2013Cooperation": {
+    "r": -0.6565656565656566,
+    "p_two": 1.4137016858422675e-08,
+    "se": 0.08363409889493026,
+    "diff": -0.01454762,
+    "rel": -0.17739823114173914
+   },
+   "h3|Persistent Objective": {
+    "r": -0.9821782178217822,
+    "p_two": 1.5013268321137124e-17,
+    "se": 0.011731819521288885,
+    "diff": -0.02191631,
+    "rel": -0.27591330784482365
+   },
+   "h3|Aggressive": {
+    "r": -0.6815841584158416,
+    "p_two": 3.2715597182889192e-09,
+    "se": 0.07495670602163561,
+    "diff": -0.013992909999999999,
+    "rel": -0.13270576591436214
+   },
+   "h3|Survival-Aware": {
+    "r": -0.2102970297029703,
+    "p_two": 0.06788785377988543,
+    "se": 0.1106258957447438,
+    "diff": -0.0043245800000000015,
+    "rel": -0.12135741560210193
+   },
+   "h3_share": 1.0,
+   "hits": {
+    "r": -0.4444700166219154,
+    "p_two": 1.9329067695077592e-14,
+    "rel": -0.14241652359729962,
+    "se": 0.048491777149969925
+   },
+   "h3b": {
+    "r": -0.24,
+    "p_two": 0.037194304323534086,
+    "se": 0.11501102646978596,
+    "diff": -0.19317021,
+    "rel": -0.07058785702208158
+   },
+   "h4_eng": {
+    "rho": -0.6703187839432327,
+    "z": -0.8113218000807835,
+    "se": 0.04674591381279049,
+    "p_two": 1.615349369522597e-66
+   },
+   "h4_coh": {
+    "rho": 0.1913740041364362,
+    "z": 0.1937630197239845,
+    "se": 0.047637133927392335,
+    "change_cells": 0.9366893760000001
+   }
+  },
+  "urban": {
+   "mode|Survival-Aware": {
+    "r": 0.9762376237623762,
+    "p_two": 2.3370298960864507e-17,
+    "se": NaN,
+    "diff": 0.5320460200000001,
+    "rel": 5.86276606060606
+   },
+   "mode|Aggressive": {
+    "r": 1.0,
+    "p_two": 3.896559845095909e-18,
+    "se": NaN,
+    "diff": 1.3921484199999998,
+    "rel": 0.9904624719735943
+   },
+   "h2|Mission": {
+    "r": -1.0,
+    "p_two": 3.8930443360697965e-18,
+    "se": NaN,
+    "diff": -19.93732303,
+    "rel": -0.9559164556401128
+   },
+   "h2|Control": {
+    "r": -1.0,
+    "p_two": 3.896559845095909e-18,
+    "se": NaN,
+    "diff": -27.671675490000002,
+    "rel": -0.9492424436079349
+   },
+   "h3|Mission\u2013Cooperation": {
+    "r": -0.3422222222222222,
+    "p_two": 0.0031137887963995792,
+    "se": 0.10681306441930885,
+    "diff": -0.00612595,
+    "rel": -0.07604732898645906
+   },
+   "h3|Persistent Objective": {
+    "r": -0.9306930693069307,
+    "p_two": 6.473311925753083e-16,
+    "se": 0.030218154934694284,
+    "diff": -0.022820869999999997,
+    "rel": -0.29246644389484844
+   },
+   "h3|Aggressive": {
+    "r": -0.6752475247524753,
+    "p_two": 4.563786971596854e-09,
+    "se": 0.08017582728220865,
+    "diff": -0.01600753,
+    "rel": -0.15199566636313477
+   },
+   "h3|Survival-Aware": {
+    "r": -0.21465346534653465,
+    "p_two": 0.06238182359673901,
+    "se": 0.11052192859477163,
+    "diff": -0.0042505,
+    "rel": -0.11204863551360456
+   },
+   "h3_share": 1.0,
+   "hits": {
+    "r": -0.4375689223057644,
+    "p_two": 3.6142507495636196e-14,
+    "rel": -0.1296582834052122,
+    "se": 0.049038644240210816
+   },
+   "h3b": {
+    "r": -0.5948514851485148,
+    "p_two": 2.4125792097928153e-07,
+    "se": 0.08739305818038932,
+    "diff": -0.33135669,
+    "rel": -0.12023705587774002
+   },
+   "h4_eng": {
+    "rho": -0.6605685531337452,
+    "z": -0.7938216608996742,
+    "se": 0.04494206731039512,
+    "p_two": 5.4111164748778834e-64
+   },
+   "h4_coh": {
+    "rho": 0.08585976406756624,
+    "z": 0.08607168538992081,
+    "se": 0.04718739221832522,
+    "change_cells": 0.9166328000000001
+   }
+  }
+ }
+}

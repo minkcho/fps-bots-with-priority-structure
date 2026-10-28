@@ -1,0 +1,810 @@
+{
+  "primary": [
+    {
+      "hypothesis": "H1",
+      "test": "Kruskal-Wallis, Mission ObjCommit",
+      "statistic": "H = 307.5",
+      "effect": "eps2 = 0.77",
+      "p": 2.3508645302387045e-66,
+      "p_holm": 4.466642607453538e-65,
+      "raw": {
+        "H": 307.51507972004947,
+        "p": 2.3508645302387045e-66,
+        "eps2": 0.768977474040529
+      }
+    },
+    {
+      "hypothesis": "H1",
+      "test": "Kruskal-Wallis, Mission AllyDist",
+      "statistic": "H = 180.1",
+      "effect": "eps2 = 0.45",
+      "p": 8.202842091034424e-39,
+      "p_holm": 1.2304263136551636e-37,
+      "raw": {
+        "H": 180.1458712026766,
+        "p": 8.202842091034424e-39,
+        "eps2": 0.44733805859261766
+      }
+    },
+    {
+      "hypothesis": "H1",
+      "test": "Kruskal-Wallis, Deathmatch EngRedirect",
+      "statistic": "H = 345.8",
+      "effect": "eps2 = 0.87",
+      "p": 1.2010669848509304e-74,
+      "p_holm": 2.402133969701861e-73,
+      "raw": {
+        "H": 345.8162565488628,
+        "p": 1.2010669848509304e-74,
+        "eps2": 0.8656976175476333
+      }
+    },
+    {
+      "hypothesis": "H1",
+      "test": "Kruskal-Wallis, Deathmatch ResSeek",
+      "statistic": "H = 231.8",
+      "effect": "eps2 = 0.58",
+      "p": 5.772850496278672e-50,
+      "p_holm": 9.813845843673743e-49,
+      "raw": {
+        "H": 231.75484940248154,
+        "p": 5.772850496278672e-50,
+        "eps2": 0.5776637611173776
+      }
+    },
+    {
+      "hypothesis": "H1",
+      "test": "Kruskal-Wallis, Control CtrlScore",
+      "statistic": "H = 221.5",
+      "effect": "eps2 = 0.55",
+      "p": 9.554547666274585e-48,
+      "p_holm": 1.5287276266039337e-46,
+      "raw": {
+        "H": 221.49190710670393,
+        "p": 9.554547666274585e-48,
+        "eps2": 0.5517472401684442
+      }
+    },
+    {
+      "hypothesis": "H1",
+      "test": "Style classification, Mission",
+      "statistic": "accuracy = 0.78 (chance 0.25)",
+      "effect": "5-fold CV, 5000 permutations",
+      "p": 0.0001999600079984003,
+      "p_holm": 0.0013997200559888023,
+      "raw": {
+        "accuracy": 0.7825,
+        "p": 0.0001999600079984003,
+        "chance": 0.25,
+        "n": 400
+      }
+    },
+    {
+      "hypothesis": "H1",
+      "test": "Style classification, Deathmatch",
+      "statistic": "accuracy = 0.97 (chance 0.25)",
+      "effect": "5-fold CV, 5000 permutations",
+      "p": 0.0001999600079984003,
+      "p_holm": 0.0013997200559888023,
+      "raw": {
+        "accuracy": 0.975,
+        "p": 0.0001999600079984003,
+        "chance": 0.25,
+        "n": 400
+      }
+    },
+    {
+      "hypothesis": "H1",
+      "test": "Style classification, Control",
+      "statistic": "accuracy = 0.78 (chance 0.25)",
+      "effect": "5-fold CV, 5000 permutations",
+      "p": 0.0001999600079984003,
+      "p_holm": 0.0013997200559888023,
+      "raw": {
+        "accuracy": 0.775,
+        "p": 0.0001999600079984003,
+        "chance": 0.25,
+        "n": 400
+      }
+    },
+    {
+      "hypothesis": "H1",
+      "test": "Mode ablation, Deathmatch Survival-Aware ResSeek (full - weights-only)",
+      "statistic": "median diff = +0.50 [+0.41, +0.59]",
+      "effect": "r = +0.98",
+      "p": 2.3370298960864507e-17,
+      "p_holm": 2.5707328856950957e-16,
+      "raw": {
+        "n_pairs": 100,
+        "n_nonzero": 100,
+        "p": 2.3370298960864507e-17,
+        "r": 0.9762376237623762,
+        "median_diff": 0.498008,
+        "hl": [
+          0.498008,
+          0.40868099999999996,
+          0.586935
+        ]
+      }
+    },
+    {
+      "hypothesis": "H1",
+      "test": "Mode ablation, Deathmatch Aggressive EngRedirect (full - weights-only)",
+      "statistic": "median diff = +1.37 [+1.27, +1.55]",
+      "effect": "r = +1.00",
+      "p": 3.896559845095909e-18,
+      "p_holm": 5.4502620704977154e-17,
+      "raw": {
+        "n_pairs": 100,
+        "n_nonzero": 100,
+        "p": 3.896559845095909e-18,
+        "r": 1.0,
+        "median_diff": 1.3747535000000002,
+        "hl": [
+          1.3747535000000002,
+          1.2722704999999999,
+          1.5526696
+        ]
+      }
+    },
+    {
+      "hypothesis": "H2",
+      "test": "Mission GoalSwitches, w_commit 0.45 - 0",
+      "statistic": "median diff = -15.21 [-17.22, -11.47]",
+      "effect": "r = -1.00",
+      "p": 3.8930443360697965e-18,
+      "p_holm": 5.4502620704977154e-17,
+      "raw": {
+        "n_pairs": 100,
+        "n_nonzero": 100,
+        "p": 3.8930443360697965e-18,
+        "r": -1.0,
+        "median_diff": -15.209377,
+        "hl": [
+          -15.209377,
+          -17.218672,
+          -11.474075500000001
+        ]
+      }
+    },
+    {
+      "hypothesis": "H2",
+      "test": "Control GoalSwitches, w_commit 0.45 - 0",
+      "statistic": "median diff = -24.14 [-27.12, -21.13]",
+      "effect": "r = -1.00",
+      "p": 3.896559845095909e-18,
+      "p_holm": 5.4502620704977154e-17,
+      "raw": {
+        "n_pairs": 100,
+        "n_nonzero": 100,
+        "p": 3.896559845095909e-18,
+        "r": -1.0,
+        "median_diff": -24.1366895,
+        "hl": [
+          -24.1366895,
+          -27.120442,
+          -21.125265000000002
+        ]
+      }
+    },
+    {
+      "hypothesis": "H3",
+      "test": "Deathmatch Mission–Cooperation WalkedHits, lambda_E configured - 0",
+      "statistic": "median diff = -0.0059 [-0.0099, -0.0009]",
+      "effect": "r = -0.34",
+      "p": 0.0031137887963995792,
+      "p_holm": 0.009341366389198738,
+      "raw": {
+        "n_pairs": 100,
+        "n_nonzero": 99,
+        "p": 0.0031137887963995792,
+        "r": -0.3422222222222222,
+        "median_diff": -0.0058530000000000075,
+        "hl": [
+          -0.0058530000000000075,
+          -0.009894,
+          -0.0008710000000000107
+        ]
+      }
+    },
+    {
+      "hypothesis": "H3",
+      "test": "Deathmatch Persistent Objective WalkedHits, lambda_E configured - 0",
+      "statistic": "median diff = -0.0234 [-0.0258, -0.0198]",
+      "effect": "r = -0.93",
+      "p": 6.473311925753083e-16,
+      "p_holm": 6.473311925753083e-15,
+      "raw": {
+        "n_pairs": 100,
+        "n_nonzero": 100,
+        "p": 6.473311925753083e-16,
+        "r": -0.9306930693069307,
+        "median_diff": -0.023417,
+        "hl": [
+          -0.023417,
+          -0.025829999999999992,
+          -0.019826475000000007
+        ]
+      }
+    },
+    {
+      "hypothesis": "H3",
+      "test": "Deathmatch Aggressive WalkedHits, lambda_E configured - 0",
+      "statistic": "median diff = -0.0156 [-0.0195, -0.0111]",
+      "effect": "r = -0.68",
+      "p": 4.563786971596854e-09,
+      "p_holm": 4.107408274437169e-08,
+      "raw": {
+        "n_pairs": 100,
+        "n_nonzero": 100,
+        "p": 4.563786971596854e-09,
+        "r": -0.6752475247524753,
+        "median_diff": -0.015618499999999993,
+        "hl": [
+          -0.015618499999999993,
+          -0.019541000000000003,
+          -0.011122500000000007
+        ]
+      }
+    },
+    {
+      "hypothesis": "H3",
+      "test": "Deathmatch Survival-Aware WalkedHits, lambda_E configured - 0",
+      "statistic": "median diff = -0.0049 [-0.0090, +0.0024]",
+      "effect": "r = -0.21",
+      "p": 0.06238182359673901,
+      "p_holm": 0.11006446731832614,
+      "raw": {
+        "n_pairs": 100,
+        "n_nonzero": 100,
+        "p": 0.06238182359673901,
+        "r": -0.21465346534653465,
+        "median_diff": -0.004883000000000001,
+        "hl": [
+          -0.004883000000000001,
+          -0.009038000000000003,
+          0.002355212499999995
+        ]
+      }
+    },
+    {
+      "hypothesis": "H3",
+      "test": "Sign test, WalkedHits lower with the exposure term (all scenarios x styles)",
+      "statistic": "12/12 conditions lower",
+      "effect": "one-sided binomial",
+      "p": 0.000244140625,
+      "p_holm": 0.0013997200559888023,
+      "raw": {
+        "neg": 12,
+        "n": 12,
+        "p": 0.000244140625
+      }
+    },
+    {
+      "hypothesis": "H3b",
+      "test": "Deathmatch Mission–Cooperation AllyDist, lambda_T 10 - 0",
+      "statistic": "median diff = -0.33 [-0.46, -0.15]",
+      "effect": "r = -0.59",
+      "p": 2.4125792097928153e-07,
+      "p_holm": 1.9300633678342522e-06,
+      "raw": {
+        "n_pairs": 100,
+        "n_nonzero": 100,
+        "p": 2.4125792097928153e-07,
+        "r": -0.5948514851485148,
+        "median_diff": -0.3324830000000001,
+        "hl": [
+          -0.3324830000000001,
+          -0.4607610000000002,
+          -0.15359463750000035
+        ]
+      }
+    },
+    {
+      "hypothesis": "H4",
+      "test": "Mission AllyDist along alpha (Mission–Cooperation -> Persistent Objective)",
+      "statistic": "rho = +0.09",
+      "effect": "n = 500",
+      "p": 0.05503223365916307,
+      "p_holm": 0.11006446731832614,
+      "raw": {
+        "rho": 0.08585976406756624,
+        "p": 0.05503223365916307
+      }
+    },
+    {
+      "hypothesis": "H4",
+      "test": "Deathmatch EngRedirect along alpha (Aggressive -> Survival-Aware)",
+      "statistic": "rho = -0.66",
+      "effect": "n = 500",
+      "p": 5.4111164748778834e-64,
+      "p_holm": 9.74000965478019e-63,
+      "raw": {
+        "rho": -0.6605685531337452,
+        "p": 5.4111164748778834e-64
+      }
+    }
+  ],
+  "secondary_contrasts": [
+    {
+      "scenario": "Mission",
+      "metric": "ObjCommit",
+      "a": "Mission–Cooperation",
+      "b": "Persistent Objective",
+      "U": 5391.0,
+      "p": 0.3087438424291947,
+      "r": 0.07820000000000005,
+      "hl": [
+        0.0,
+        0.0,
+        0.004106887499999871
+      ]
+    },
+    {
+      "scenario": "Mission",
+      "metric": "ObjCommit",
+      "a": "Mission–Cooperation",
+      "b": "Aggressive",
+      "U": 9706.0,
+      "p": 4.593444961653452e-31,
+      "r": 0.9412,
+      "hl": [
+        0.7469125,
+        0.6886036249999999,
+        0.80820255
+      ]
+    },
+    {
+      "scenario": "Mission",
+      "metric": "ObjCommit",
+      "a": "Mission–Cooperation",
+      "b": "Survival-Aware",
+      "U": 10000.0,
+      "p": 2.8106964673457097e-36,
+      "r": 1.0,
+      "hl": [
+        0.964829,
+        0.942231,
+        0.980121
+      ]
+    },
+    {
+      "scenario": "Mission",
+      "metric": "ObjCommit",
+      "a": "Persistent Objective",
+      "b": "Aggressive",
+      "U": 9461.0,
+      "p": 3.6593451205289645e-28,
+      "r": 0.8922000000000001,
+      "hl": [
+        0.7077495,
+        0.613047925,
+        0.7629600000000001
+      ]
+    },
+    {
+      "scenario": "Mission",
+      "metric": "ObjCommit",
+      "a": "Persistent Objective",
+      "b": "Survival-Aware",
+      "U": 9986.0,
+      "p": 3.4787914178060354e-36,
+      "r": 0.9972000000000001,
+      "hl": [
+        0.954461,
+        0.90272,
+        0.985536
+      ]
+    },
+    {
+      "scenario": "Mission",
+      "metric": "ObjCommit",
+      "a": "Aggressive",
+      "b": "Survival-Aware",
+      "U": 8659.0,
+      "p": 1.3612681510578617e-20,
+      "r": 0.7318,
+      "hl": [
+        0.174208,
+        0.130326,
+        0.236842
+      ]
+    },
+    {
+      "scenario": "Mission",
+      "metric": "AllyDist",
+      "a": "Mission–Cooperation",
+      "b": "Persistent Objective",
+      "U": 4462.5,
+      "p": 0.1891456537622732,
+      "r": -0.10750000000000004,
+      "hl": [
+        -0.04201599999999983,
+        -0.2950344875,
+        0.0017169999999999686
+      ]
+    },
+    {
+      "scenario": "Mission",
+      "metric": "AllyDist",
+      "a": "Mission–Cooperation",
+      "b": "Aggressive",
+      "U": 922.0,
+      "p": 2.1663759497780278e-23,
+      "r": -0.8156,
+      "hl": [
+        -2.8104365,
+        -3.256145875,
+        -2.4181592500000013
+      ]
+    },
+    {
+      "scenario": "Mission",
+      "metric": "AllyDist",
+      "a": "Mission–Cooperation",
+      "b": "Survival-Aware",
+      "U": 471.0,
+      "p": 1.8102845157345673e-28,
+      "r": -0.9057999999999999,
+      "hl": [
+        -4.3516745,
+        -5.2874119749999995,
+        -3.6993840000000002
+      ]
+    },
+    {
+      "scenario": "Mission",
+      "metric": "AllyDist",
+      "a": "Persistent Objective",
+      "b": "Aggressive",
+      "U": 2311.5,
+      "p": 5.022941651281821e-11,
+      "r": -0.5377000000000001,
+      "hl": [
+        -2.3083019999999994,
+        -2.7887008625000003,
+        -1.6234549999999999
+      ]
+    },
+    {
+      "scenario": "Mission",
+      "metric": "AllyDist",
+      "a": "Persistent Objective",
+      "b": "Survival-Aware",
+      "U": 1421.0,
+      "p": 2.2011408457202913e-18,
+      "r": -0.7158,
+      "hl": [
+        -3.888449,
+        -4.6529552999999995,
+        -2.9864647250000016
+      ]
+    },
+    {
+      "scenario": "Mission",
+      "metric": "AllyDist",
+      "a": "Aggressive",
+      "b": "Survival-Aware",
+      "U": 3057.0,
+      "p": 2.071888663023598e-06,
+      "r": -0.38859999999999995,
+      "hl": [
+        -1.9116855,
+        -2.8759187250000005,
+        -1.045428437500001
+      ]
+    },
+    {
+      "scenario": "Deathmatch",
+      "metric": "EngRedirect",
+      "a": "Mission–Cooperation",
+      "b": "Persistent Objective",
+      "U": 9082.0,
+      "p": 1.1147887609488778e-23,
+      "r": 0.8164,
+      "hl": [
+        0.33727799999999997,
+        0.255911,
+        0.39267
+      ]
+    },
+    {
+      "scenario": "Deathmatch",
+      "metric": "EngRedirect",
+      "a": "Mission–Cooperation",
+      "b": "Aggressive",
+      "U": 1.0,
+      "p": 2.6254577631885234e-34,
+      "r": -0.9998,
+      "hl": [
+        -2.3572695,
+        -2.4610177500000003,
+        -2.23579
+      ]
+    },
+    {
+      "scenario": "Deathmatch",
+      "metric": "EngRedirect",
+      "a": "Mission–Cooperation",
+      "b": "Survival-Aware",
+      "U": 9800.0,
+      "p": 1.1128620644570851e-36,
+      "r": 0.96,
+      "hl": [
+        0.429185,
+        0.359281,
+        0.4662
+      ]
+    },
+    {
+      "scenario": "Deathmatch",
+      "metric": "EngRedirect",
+      "a": "Persistent Objective",
+      "b": "Aggressive",
+      "U": 0.0,
+      "p": 1.3254493871319353e-34,
+      "r": -1.0,
+      "hl": [
+        -2.692385,
+        -2.7897,
+        -2.6118997250000002
+      ]
+    },
+    {
+      "scenario": "Deathmatch",
+      "metric": "EngRedirect",
+      "a": "Persistent Objective",
+      "b": "Survival-Aware",
+      "U": 7950.0,
+      "p": 3.816692174982291e-19,
+      "r": 0.5900000000000001,
+      "hl": [
+        0.0999505,
+        0.0,
+        0.10549008749999997
+      ]
+    },
+    {
+      "scenario": "Deathmatch",
+      "metric": "EngRedirect",
+      "a": "Aggressive",
+      "b": "Survival-Aware",
+      "U": 10000.0,
+      "p": 5.633799324759619e-39,
+      "r": 1.0,
+      "hl": [
+        2.790199,
+        2.7194364999999996,
+        2.906977
+      ]
+    },
+    {
+      "scenario": "Deathmatch",
+      "metric": "ResSeek",
+      "a": "Mission–Cooperation",
+      "b": "Persistent Objective",
+      "U": 8441.5,
+      "p": 5.1928904811080295e-20,
+      "r": 0.6882999999999999,
+      "hl": [
+        0.214592,
+        0.118624,
+        0.232558
+      ]
+    },
+    {
+      "scenario": "Deathmatch",
+      "metric": "ResSeek",
+      "a": "Mission–Cooperation",
+      "b": "Aggressive",
+      "U": 3410.0,
+      "p": 9.997640954731603e-05,
+      "r": -0.31799999999999995,
+      "hl": [
+        -0.11627900000000001,
+        -0.1405173,
+        -0.033503225000000234
+      ]
+    },
+    {
+      "scenario": "Deathmatch",
+      "metric": "ResSeek",
+      "a": "Mission–Cooperation",
+      "b": "Survival-Aware",
+      "U": 1718.0,
+      "p": 9.745923018030934e-16,
+      "r": -0.6564,
+      "hl": [
+        -0.38752600000000004,
+        -0.48133099999999995,
+        -0.29170298750000007
+      ]
+    },
+    {
+      "scenario": "Deathmatch",
+      "metric": "ResSeek",
+      "a": "Persistent Objective",
+      "b": "Aggressive",
+      "U": 250.5,
+      "p": 1.1268336005363537e-33,
+      "r": -0.9499,
+      "hl": [
+        -0.27027,
+        -0.335196,
+        -0.239234
+      ]
+    },
+    {
+      "scenario": "Deathmatch",
+      "metric": "ResSeek",
+      "a": "Persistent Objective",
+      "b": "Survival-Aware",
+      "U": 226.0,
+      "p": 8.014615076476317e-34,
+      "r": -0.9548,
+      "hl": [
+        -0.59761,
+        -0.627615,
+        -0.505051
+      ]
+    },
+    {
+      "scenario": "Deathmatch",
+      "metric": "ResSeek",
+      "a": "Aggressive",
+      "b": "Survival-Aware",
+      "U": 2061.0,
+      "p": 6.919257405086185e-13,
+      "r": -0.5878,
+      "hl": [
+        -0.28075300000000003,
+        -0.3700972875,
+        -0.23464317500000023
+      ]
+    },
+    {
+      "scenario": "Control",
+      "metric": "CtrlScore",
+      "a": "Mission–Cooperation",
+      "b": "Persistent Objective",
+      "U": 5210.5,
+      "p": 0.34483038218853,
+      "r": 0.042100000000000026,
+      "hl": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "scenario": "Control",
+      "metric": "CtrlScore",
+      "a": "Mission–Cooperation",
+      "b": "Aggressive",
+      "U": 7348.0,
+      "p": 3.1510576493006026e-12,
+      "r": 0.4696,
+      "hl": [
+        12.0,
+        0.0,
+        48.0
+      ]
+    },
+    {
+      "scenario": "Control",
+      "metric": "CtrlScore",
+      "a": "Mission–Cooperation",
+      "b": "Survival-Aware",
+      "U": 9525.0,
+      "p": 2.1788497228087592e-33,
+      "r": 0.905,
+      "hl": [
+        120.0,
+        120.0,
+        120.0
+      ]
+    },
+    {
+      "scenario": "Control",
+      "metric": "CtrlScore",
+      "a": "Persistent Objective",
+      "b": "Aggressive",
+      "U": 7140.0,
+      "p": 4.675914680331922e-10,
+      "r": 0.42799999999999994,
+      "hl": [
+        8.0,
+        0.0,
+        42.0
+      ]
+    },
+    {
+      "scenario": "Control",
+      "metric": "CtrlScore",
+      "a": "Persistent Objective",
+      "b": "Survival-Aware",
+      "U": 9427.0,
+      "p": 1.3328236981677308e-31,
+      "r": 0.8854,
+      "hl": [
+        120.0,
+        119.0,
+        120.0
+      ]
+    },
+    {
+      "scenario": "Control",
+      "metric": "CtrlScore",
+      "a": "Aggressive",
+      "b": "Survival-Aware",
+      "U": 7990.0,
+      "p": 1.0865233044233304e-14,
+      "r": 0.5980000000000001,
+      "hl": [
+        74.0,
+        38.0,
+        100.0
+      ]
+    }
+  ],
+  "classification": {
+    "Mission": {
+      "accuracy": 0.7825,
+      "p": 0.0001999600079984003,
+      "chance": 0.25,
+      "n": 400
+    },
+    "Deathmatch": {
+      "accuracy": 0.975,
+      "p": 0.0001999600079984003,
+      "chance": 0.25,
+      "n": 400
+    },
+    "Control": {
+      "accuracy": 0.775,
+      "p": 0.0001999600079984003,
+      "chance": 0.25,
+      "n": 400
+    }
+  },
+  "secondary": [
+    {
+      "hypothesis": "H2 (earlier formulation)",
+      "test": "Mission ObjCommit, w_commit 0.45 - 0",
+      "statistic": "median diff = +0.09 [+0.05, +0.12]",
+      "effect": "r = +0.90",
+      "p": 6.813013173187115e-15,
+      "raw": {
+        "n_pairs": 100,
+        "n_nonzero": 100,
+        "p": 6.813013173187115e-15,
+        "r": 0.897029702970297,
+        "median_diff": 0.08515900000000004,
+        "hl": [
+          0.08515900000000004,
+          0.053083500000000006,
+          0.115562
+        ]
+      }
+    },
+    {
+      "hypothesis": "H2 (earlier formulation)",
+      "test": "Control CtrlScore, w_commit 0.45 - 0",
+      "statistic": "median diff = +0.00 [+0.00, +0.00]",
+      "effect": "r = +0.64",
+      "p": 0.0031860035554522113,
+      "raw": {
+        "n_pairs": 100,
+        "n_nonzero": 28,
+        "p": 0.0031860035554522113,
+        "r": 0.6354679802955665,
+        "median_diff": 0.0,
+        "hl": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ]
+}

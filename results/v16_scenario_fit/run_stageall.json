@@ -1,0 +1,177 @@
+{
+ "stage": "all",
+ "quick": false,
+ "seed_bases": {
+  "c_target": 16032,
+  "c_train": 16029,
+  "c_select": 16033,
+  "c_valid": 16031,
+  "c_test": 16030
+ },
+ "check_bases": {
+  "chk_v11": 11030
+ },
+ "fingerprint": [
+  "objective_commitment_ratio",
+  "engagement_redirection_rate_per_100",
+  "resource_seeking_rate_per_100",
+  "avg_ally_proximity",
+  "kill_rate_per_100",
+  "death_rate_per_100",
+  "los_frac",
+  "resource_goal_share_good",
+  "retreat_share",
+  "far_pursuit_share",
+  "contact_distance"
+ ],
+ "dim": 8,
+ "cases": [
+  "CSO-BT|Mission",
+  "CSO-BT|Control",
+  "OW-BT|Mission",
+  "OW-BT|Control",
+  "AC-BT|Deathmatch",
+  "XO-BT|Deathmatch"
+ ],
+ "modes_searched_per_case": 2,
+ "budgets": {
+  "N_SOBOL": 512,
+  "N_SELECT": 4,
+  "N_ELITE": 32,
+  "DE_GENERATIONS": 4,
+  "N_FINALISTS": 8,
+  "episodes": {
+   "target": 50,
+   "screen": 2,
+   "select": 12,
+   "search": 4,
+   "validation": 12,
+   "test": 50
+  }
+ },
+ "check_fits": {
+  "fit[CSO-BT]": {
+   "game": "CSO-BT",
+   "source": "/home/minkcho/fps_repro/repro_outputs/v11_fit/fitted.json",
+   "combat_mode": 2,
+   "x": [
+    0.38682886213064194,
+    0.298208947384159,
+    0.5508339637890458,
+    0.05596344918012619,
+    0.23423551209270954,
+    0.31274589518933216,
+    0.7381624956405435,
+    0.4854165364488312
+   ],
+   "params": {
+    "w_objective": 0.38682886213064194,
+    "w_engage": 0.1828531195903683,
+    "w_resource": 0.237033779698463,
+    "w_team": 0.1932842385805268,
+    "w_commitment": 0.027981724590063095,
+    "resource_idle_factor": 0.11711775604635477,
+    "resource_distance_scale": 4.221742984664582,
+    "hunt_unseen": 0.7381624956405435,
+    "urgent_switch_relief": 0.4854165364488312
+   }
+  },
+  "fit[OW-BT]": {
+   "game": "OW-BT",
+   "source": "/home/minkcho/fps_repro/repro_outputs/v11_fit/fitted.json",
+   "combat_mode": 0,
+   "x": [
+    0.30396030119054906,
+    0.22677260609987776,
+    0.46011507604271173,
+    0.2647954807203653,
+    0.05463810814776121,
+    0.7648618016391993,
+    0.7213486079126596,
+    0.9290977148339152
+   ],
+   "params": {
+    "w_objective": 0.30396030119054906,
+    "w_engage": 0.15784273644799318,
+    "w_resource": 0.2476325362628986,
+    "w_team": 0.29056442609855915,
+    "w_commitment": 0.13239774036018265,
+    "resource_idle_factor": 0.027319054073880605,
+    "resource_distance_scale": 33.86285751873423,
+    "hunt_unseen": 0.7213486079126596,
+    "urgent_switch_relief": 0.9290977148339152
+   }
+  },
+  "fit[AC-BT]": {
+   "game": "AC-BT",
+   "source": "/home/minkcho/fps_repro/repro_outputs/v11_fit/fitted.json",
+   "combat_mode": 2,
+   "x": [
+    0.03482100338639227,
+    0.6824907875726763,
+    0.22831469641685498,
+    0.9682830478996038,
+    0.4156383332749881,
+    0.6252681677813603,
+    0.2957822043171129,
+    0.4598902214116255
+   ],
+   "params": {
+    "w_objective": 0.03482100338639227,
+    "w_engage": 0.6587257735474267,
+    "w_resource": 0.06996777459032187,
+    "w_team": 0.2364854484758592,
+    "w_commitment": 0.4841415239498019,
+    "resource_idle_factor": 0.20781916663749406,
+    "resource_distance_scale": 17.804768675103585,
+    "hunt_unseen": 0.2957822043171129,
+    "urgent_switch_relief": 0.4598902214116255
+   }
+  },
+  "fit[XO-BT]": {
+   "game": "XO-BT",
+   "source": "/home/minkcho/fps_repro/repro_outputs/v11_fit/fitted.json",
+   "combat_mode": 2,
+   "x": [
+    0.0011910382822644672,
+    0.6610637380513462,
+    0.8944608825140088,
+    0.031752981472534414,
+    0.20179754495620728,
+    0.04741134877076414,
+    0.8024098287406854,
+    0.8635620092973113
+   ],
+   "params": {
+    "w_objective": 0.0011910382822644672,
+    "w_engage": 0.6602763858323103,
+    "w_resource": 0.3028041465862182,
+    "w_team": 0.03572842929920714,
+    "w_commitment": 0.015876490736267207,
+    "resource_idle_factor": 0.10089877247810364,
+    "resource_distance_scale": 1.2440066374041123,
+    "hunt_unseen": 0.8024098287406854,
+    "urgent_switch_relief": 0.8635620092973113
+   }
+  }
+ },
+ "sha256": {
+  "code/fps_priority_ai/baselines.py": "7ad9e4d51fb04a265d8fa7738fe52c00eaa2d4a38d86078558d285cfd348167e",
+  "code/fps_priority_ai/policy.py": "33af4a8436e2960e0d449e9bd9e95229f8b1780ba8316abf565343143921ca8f",
+  "code/fps_priority_ai/config.py": "57ed6a6bf6626175f900631bbb03387ac7855551593f642a91d5dc60e7861506"
+ },
+ "git_head": "7e645a8359a4df2cd73a457a2c464d42fd8a5be0",
+ "versions": {
+  "python": "3.10.12",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3"
+ },
+ "testbed": {
+  "teammate_swap": true,
+  "local_avoidance": true,
+  "forget_reached_memory": true,
+  "symmetric_los": true,
+  "reachable_placement": true
+ },
+ "start": "2026-09-30 19:12:44"
+}
